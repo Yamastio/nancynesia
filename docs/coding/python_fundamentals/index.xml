@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nancynesia – Python Fundamental</title>
+    <link>https://nancynesia.com/docs/coding/python_fundamentals/</link>
+    <description>Recent content in Python Fundamental on Nancynesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://nancynesia.com/docs/coding/python_fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Python Hello World</title>
+      <link>https://nancynesia.com/docs/coding/python_fundamentals/python_hello_world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/coding/python_fundamentals/python_hello_world/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Introduction&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is one of the world&amp;rsquo;s easiest and most popular programming languages. This course will teach you the basics of Python, without requiring any prior knowledge.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div class=&#34;filename&#34; dir=&#34;auto&#34;&gt;hello.py&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Python!&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;Hello World!&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hello-world&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#hello-world&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;&amp;ldquo;Hello World!&amp;rdquo;&lt;/strong&gt; is a simple program that outputs &lt;code&gt;Hello World!&lt;/code&gt; to the screen.&lt;/p&gt;
+&lt;p&gt;In Python, we use &lt;code&gt;print()&lt;/code&gt; to show words on the screen. The words go inside quotation marks.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;Hello World!&amp;rdquo; program in Python:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;print(&amp;quot;Hello World!&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
