@@ -1,0 +1,113 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nancynesia – Hacking_fundamentals</title>
+    <link>https://nancynesia.com/tags/hacking_fundamentals/</link>
+    <description>Recent content in Hacking_fundamentals on Nancynesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://nancynesia.com/tags/hacking_fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Hands-on Setup Lab dan Lingkungan Testing Aman</title>
+      <link>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Menjelaskan bagaimana cara setup Lab yang baik, referensi dari course ITTS Ethical Hackers&lt;/p&gt;
+&lt;p&gt;Tags: [[hacking_fundamentals]]&lt;/p&gt;
+&lt;h2&gt;1. Memahami Komponen Utama&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-memahami-komponen-utama&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-memahami-komponen-utama&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ubuntu 24.04&lt;/strong&gt;: Digunakan sebagai OS utama untuk host karena stabilitas dan fleksibilitasnya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kali Linux 2024.3&lt;/strong&gt;: Sebagai distro khusus pengujian penetrasi dengan beragam tools bawaan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GNS3&lt;/strong&gt;: Emulator jaringan untuk membangun topologi kompleks dan simulasi serangan/pertahanan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. Langkah-langkah Setup&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-langkah-langkah-setup&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-langkah-langkah-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;i. Instalasi Ubuntu 24.04&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i-instalasi-ubuntu-2404&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-instalasi-ubuntu-2404&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Unduh ISO dari situs resmi Ubuntu.&lt;/li&gt;
+&lt;li&gt;Buat media bootable (USB atau DVD) dan instal Ubuntu pada perangkat keras Anda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ii. Instalasi Kali Linux (Opsional)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ii-instalasi-kali-linux-opsional&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ii-instalasi-kali-linux-opsional&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Unduh ISO Kali Linux 2024.3 dari situs resmi.&lt;/li&gt;
+&lt;li&gt;Instal pada VM menggunakan software virtualisasi seperti &lt;strong&gt;VirtualBox&lt;/strong&gt; atau &lt;strong&gt;VMware&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;iii. Instalasi GNS3&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;iii-instalasi-gns3&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#iii-instalasi-gns3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Unduh dan instal GNS3 dari situs resminya.&lt;/li&gt;
+&lt;li&gt;Konfigurasikan agar GNS3 dapat bekerja dengan VM Anda (misalnya untuk menghubungkan Kali Linux di dalam VM).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;iv. Konfigurasi Jaringan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;iv-konfigurasi-jaringan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#iv-konfigurasi-jaringan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pastikan mesin host dan VM dapat berkomunikasi.&lt;/li&gt;
+&lt;li&gt;Stabilkan koneksi internet untuk mengunduh tools dan update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;v. Instalasi Tools&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;v-instalasi-tools&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#v-instalasi-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Di Kali Linux&lt;/strong&gt;: Sebagian besar tools untuk ethical hacking sudah tersedia secara default.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Di Ubuntu&lt;/strong&gt;: Instal tools melalui &lt;strong&gt;apt&lt;/strong&gt;, seperti:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nmap&lt;/strong&gt;: Untuk pemindaian jaringan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metasploit&lt;/strong&gt;: Framework eksploitasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wireshark&lt;/strong&gt;: Analisis lalu lintas jaringan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;John the Ripper&lt;/strong&gt;: Cracking password.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Burp Suite&lt;/strong&gt;: Pengujian aplikasi web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;vi. Membangun Topologi Jaringan di GNS3&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;vi-membangun-topologi-jaringan-di-gns3&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vi-membangun-topologi-jaringan-di-gns3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tambahkan perangkat jaringan seperti router, switch, firewall di GNS3.&lt;/li&gt;
+&lt;li&gt;Konfigurasikan perangkat dan hubungkan sesuai kebutuhan topologi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. Contoh Topologi Sederhana&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-contoh-topologi-sederhana&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-contoh-topologi-sederhana&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host&lt;/strong&gt;: Kali Linux (mesin attacker).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Target&lt;/strong&gt;: Ubuntu Server (mesin target).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Router&lt;/strong&gt;: Mikrotik di GNS3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Switch&lt;/strong&gt;: Built-in switch di GNS3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. Lingkungan Testing Aman&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-lingkungan-testing-aman&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-lingkungan-testing-aman&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Isolasi Jaringan&lt;/strong&gt;: Pisahkan dari jaringan produksi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firewall&lt;/strong&gt;: Batasi akses ke layanan tertentu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDS (Intrusion Detection System)&lt;/strong&gt;: Pantau aktivitas jaringan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtualisasi&lt;/strong&gt;: Isolasi setiap eksperimen untuk meminimalkan risiko.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backup&lt;/strong&gt;: Lakukan backup secara berkala.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. Hands-On Aktivitas&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-hands-on-aktivitas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-hands-on-aktivitas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scanning Jaringan&lt;/strong&gt;: Gunakan &lt;strong&gt;Nmap&lt;/strong&gt; untuk memindai dan mengidentifikasi perangkat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eksploitasi Kerentanan&lt;/strong&gt;: Gunakan &lt;strong&gt;Metasploit&lt;/strong&gt; pada kerentanan yang ditemukan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analisis Traffic&lt;/strong&gt;: Gunakan &lt;strong&gt;Wireshark&lt;/strong&gt; untuk melihat pola traffic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Password Cracking&lt;/strong&gt;: Gunakan &lt;strong&gt;John the Ripper&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Application Hacking&lt;/strong&gt;: Uji aplikasi web menggunakan &lt;strong&gt;Burp Suite&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6. Tips Tambahan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-tips-tambahan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-tips-tambahan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pelajari Dasar-Dasar Jaringan&lt;/strong&gt; untuk memahami lebih baik.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ikuti Tutorial dan Dokumentasi&lt;/strong&gt; terkait tools yang digunakan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Praktikkan Secara Teratur&lt;/strong&gt; untuk meningkatkan keterampilan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Etika&lt;/strong&gt;: Selalu patuhi hukum dan prinsip ethical hacking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. Penting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-penting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-penting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Jangan menyerang sistem tanpa izin.&lt;/li&gt;
+&lt;li&gt;Patuhi kebijakan keamanan yang berlaku.&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
