@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Notes</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>https://nancynesia.com/docs/</link>
     <description>Recent content in Notes on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://nancynesia.com/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,11 +15,469 @@
     
     
     <item>
-      <title>Python Hello World</title>
-      <link>http://localhost:1313/docs/coding/python_fundamentals/python_hello_world/</link>
+      <title>Definisi Ethical Hacking</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/python_fundamentals/python_hello_world/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu Ethical Hacking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-ethical-hacking&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-ethical-hacking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ibaratnya seorang dokter yang memeriksa pasienya, begitu juga dengan ethical hacker itu sendiri, seperti dokter yang memeriksa penyakit komputer. Definisi khususnya, Ethical Hacking adalah praktik penggunaan teknik hacking untuk mengidentifikasi dan memperbaiki kerentanan, keamanan pada suatu sistem.&lt;/p&gt;
+&lt;h2&gt;Kenapa Kita Perlu Belajar&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kenapa-kita-perlu-belajar&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kenapa-kita-perlu-belajar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Mencegah serangan: Dengan memahami teknik serangan, maka tahu cara bertahan&lt;/li&gt;
+&lt;li&gt;Memperbaiki sistem: Kita bisa menemukan dan memperbaiki kerentanan sebelum diserang hacker jahat&lt;/li&gt;
+&lt;li&gt;Meningkatkan keamanan siber: Menjadikan dunia digital lebih aman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Yang akan dipelajari&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;yang-akan-dipelajari&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#yang-akan-dipelajari&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Dasar keamanan komputer&lt;/li&gt;
+&lt;li&gt;Jenis serangan&lt;/li&gt;
+&lt;li&gt;Tool Hacking&lt;/li&gt;
+&lt;li&gt;Metode Pengujian&lt;/li&gt;
+&lt;li&gt;Etika dalam hacking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contoh Kegiatan dalam Kuliah Ethical Hacking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contoh-kegiatan-dalam-kuliah-ethical-hacking&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contoh-kegiatan-dalam-kuliah-ethical-hacking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Mempelajari Teori&lt;/li&gt;
+&lt;li&gt;Praktik&lt;/li&gt;
+&lt;li&gt;Mengerjakan Tugas&lt;/li&gt;
+&lt;li&gt;Proyek&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Dunia Bawah di Internet</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dunia Underground di Internet&lt;/strong&gt;: Seperti di dunia nyata, terdapat komunitas yang menolak hukum konvensional, lebih fokus pada keterbukaan informasi, dan menilai individu berdasarkan kemampuan, bukan status sosial. Komunitas ini sering terhubung dengan etos hacking yang berbasis pada ilmu komputer dan berbagi pengetahuan secara bebas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Perbedaan Hacker vs Cracker&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hacker&lt;/strong&gt;: Individu yang ahli dalam pemrograman dan jaringan, seringkali mencari solusi kreatif tanpa niat merusak.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cracker&lt;/strong&gt;: Individu yang melakukan pembobolan keamanan dengan niat merusak atau mencuri data, seringkali digambarkan secara negatif oleh media.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Karakteristik Hacker&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Suka belajar dan menguasai sistem secara detail.&lt;/li&gt;
+&lt;li&gt;Menikmati tantangan dalam pemrograman dan menghargai karya hacker lain.&lt;/li&gt;
+&lt;li&gt;Terampil dan cepat beradaptasi dengan teknologi baru.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengakuan dalam Dunia Hacker&lt;/strong&gt;: Status diakui berdasarkan keahlian, bukan umur. Pengakuan diperoleh lewat kontribusi nyata seperti eksploitasi kelemahan sistem, menulis tutorial, dan aktif dalam diskusi komunitas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kode Etik Hacker&lt;/strong&gt;: Beberapa prinsip utama, seperti menghormati pengetahuan, tidak merusak sistem yang diakses, dan berbagi informasi secara terbuka, membedakan hacker dari perilaku destruktif.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Strata Hacker&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tingkat tertinggi dikenal sebagai &amp;lsquo;Elite&amp;rsquo;, yang memiliki kemampuan tinggi dalam jaringan dan pemrograman.&lt;/li&gt;
+&lt;li&gt;Di sisi bawah, terdapat &amp;lsquo;Lamer&amp;rsquo; atau &amp;lsquo;Script Kiddie&amp;rsquo;, yang hanya memiliki pengetahuan dangkal dan seringkali berfokus pada aktivitas ilegal atau destruktif.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Etika dan Hukum Terkait Hacking</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1. Legalitas Hacking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-legalitas-hacking&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-legalitas-hacking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hukum di Indonesia&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UU ITE (Undang-Undang Informasi dan Transaksi Elektronik)&lt;/strong&gt;: Mengatur kejahatan siber seperti akses tanpa izin, perusakan data, dan gangguan sistem komputer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UU PDP (Undang-Undang Perlindungan Data Pribadi)&lt;/strong&gt;: Mengatur pengelolaan data pribadi, termasuk dalam pengujian keamanan, untuk memastikan tidak ada pelanggaran privasi selama proses ethical hacking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KUHP (Kitab Undang-Undang Hukum Pidana)&lt;/strong&gt;: Mengatur tindak pidana terkait kejahatan komputer, seperti pencurian atau penipuan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hukum Internasional&lt;/strong&gt;: Setiap negara memiliki peraturan terkait kejahatan siber yang dapat berbeda, tetapi umumnya melarang tindakan hacking yang merugikan pihak lain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. Etika dalam Hacking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-etika-dalam-hacking&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-etika-dalam-hacking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Golden Rule&lt;/strong&gt;: Jangan melakukan sesuatu yang tidak ingin Anda alami sendiri.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persetujuan&lt;/strong&gt;: Selalu mendapatkan izin sebelum melakukan pengujian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kerahasiaan&lt;/strong&gt;: Menjaga informasi yang diperoleh selama pengujian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tanggung Jawab&lt;/strong&gt;: Bertindak dengan bertanggung jawab dan melaporkan kerentanan yang ditemukan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. Hukum dalam Ethical Hacking&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-hukum-dalam-ethical-hacking&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-hukum-dalam-ethical-hacking&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengujian Penetrasi&lt;/strong&gt;: Dilakukan dengan perjanjian yang mencakup ruang lingkup dan tanggung jawab. Setelah pengujian, ethical hacker harus membuat laporan temuan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perbedaan Ethical Hacking vs. Hacking Ilegal&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Ethical hacking bertujuan menemukan dan memperbaiki kelemahan, sementara hacking ilegal bertujuan merugikan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Izin&lt;/strong&gt;: Ethical hacking dilakukan dengan izin, sementara hacking ilegal tidak.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tanggung Jawab&lt;/strong&gt;: Ethical hacker bertanggung jawab atas tindakan mereka, sementara hacker ilegal berusaha menyembunyikan jejak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. Contoh Kasus&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-contoh-kasus&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-contoh-kasus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;White Hat&lt;/strong&gt;: Melaporkan kerentanan pada situs e-commerce.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Black Hat&lt;/strong&gt;: Membobol sistem perbankan untuk mencuri data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gray Hat&lt;/strong&gt;: Memublikasikan kerentanan tanpa izin dari pemilik sistem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kesimpulan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kesimpulan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kesimpulan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ethical hacking bermanfaat jika dilakukan sesuai dengan hukum dan etika. Penting untuk memahami dampak tindakan terhadap orang lain, selalu bertindak dengan bijak, dan terus memperbarui pengetahuan tentang hukum yang berlaku.&lt;/p&gt;
+&lt;h2&gt;Poin Penting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;poin-penting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#poin-penting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hukum siber terus berkembang&lt;/strong&gt;: Tetap update dengan peraturan terkini.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konsultasi dengan Ahli Hukum&lt;/strong&gt;: Jika ragu, konsultasikan legalitas suatu tindakan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ikuti Kode Etik&lt;/strong&gt;: Mengikuti kode etik profesi untuk memastikan tindakan etis.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fase Penetration Testing</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/fase-penetration-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/fase-penetration-testing/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Penetration testing atau uji penetrasi merupakan simulasi serangan siber yang bertujuan untuk mengidentifikasi dan memperbaiki kelemahan keamanan dalam sistem komputer. Penetration testing dilakukan secara etis dan dengan izin pemilik sistem agar kerentanan yang ditemukan dapat ditangani sebelum dieksploitasi oleh pihak tidak bertanggung jawab. Berikut adalah penjelasan mengenai &lt;strong&gt;fase-fase utama dalam penetration testing&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. Reconnaissance (Pengumpulan Informasi)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-reconnaissance-pengumpulan-informasi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-reconnaissance-pengumpulan-informasi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Mengumpulkan sebanyak mungkin informasi tentang target sebelum melancarkan serangan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metode&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Passive Reconnaissance&lt;/strong&gt;: Mengamati target tanpa melakukan kontak langsung, seperti mengakses informasi yang tersedia secara publik (website, media sosial, DNS).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active Reconnaissance&lt;/strong&gt;: Melibatkan interaksi langsung dengan sistem target seperti ping atau scanning port.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Whois&lt;/strong&gt; untuk mendapatkan informasi registrasi domain.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shodan&lt;/strong&gt; untuk memindai perangkat yang terhubung ke internet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Hacking&lt;/strong&gt; untuk mengungkap data atau dokumen sensitif.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;2. Scanning (Pemindaian)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-scanning-pemindaian&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-scanning-pemindaian&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Mengidentifikasi layanan, port yang terbuka, dan potensi kerentanan di sistem target.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenis Pemindaian&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Port Scanning&lt;/strong&gt;: Mengidentifikasi port terbuka dan layanan yang berjalan di atasnya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability Scanning&lt;/strong&gt;: Memindai sistem untuk menemukan kerentanan yang diketahui menggunakan database keamanan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nmap&lt;/strong&gt; untuk pemindaian port.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nessus&lt;/strong&gt; dan &lt;strong&gt;OpenVAS&lt;/strong&gt; untuk pemindaian kerentanan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;3. Gaining Access (Mendapatkan Akses)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-gaining-access-mendapatkan-akses&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-gaining-access-mendapatkan-akses&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Mengeksploitasi kerentanan yang ditemukan dalam fase sebelumnya untuk mendapatkan akses ke sistem target.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teknik Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SQL Injection&lt;/strong&gt;: Mengeksploitasi input yang tidak tervalidasi dalam query database.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Site Scripting (XSS)&lt;/strong&gt;: Menyuntikkan skrip berbahaya ke halaman web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Buffer Overflow&lt;/strong&gt;: Mengeksploitasi batas buffer dalam memori aplikasi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metasploit Framework&lt;/strong&gt; untuk eksploitasi otomatis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;4. Maintaining Access (Menjaga Akses)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-maintaining-access-menjaga-akses&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-maintaining-access-menjaga-akses&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Setelah mendapatkan akses, penyerang berusaha untuk mempertahankan akses tersebut agar dapat mengakses sistem target di masa depan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teknik Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backdoors&lt;/strong&gt;: Menyisipkan pintu belakang yang memungkinkan akses ulang di kemudian hari.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rootkits&lt;/strong&gt;: Mengubah kernel sistem untuk menyembunyikan aktivitas penyerang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persistence Mechanisms&lt;/strong&gt;: Menggunakan layanan yang terus berjalan atau modifikasi file sistem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;5. Covering Tracks (Menyembunyikan Jejak)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-covering-tracks-menyembunyikan-jejak&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-covering-tracks-menyembunyikan-jejak&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;: Menghapus atau menyamarkan jejak aktivitas agar tidak terdeteksi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teknik Umum&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Log Wiping&lt;/strong&gt;: Menghapus atau memodifikasi log aktivitas di sistem target.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timestamp Modification&lt;/strong&gt;: Mengubah waktu modifikasi file agar tidak terlihat mencurigakan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Hiding&lt;/strong&gt;: Menyembunyikan file penting yang berkaitan dengan serangan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Dengan memahami setiap fase dalam penetration testing, tim keamanan dapat mengambil langkah-langkah pencegahan yang sesuai, seperti memperkuat jaringan, melakukan pemantauan aktif, serta meningkatkan kesadaran tentang ancaman siber. Langkah ini akan membantu mencegah dan meminimalkan dampak dari potensi serangan.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Metodologi Penetesting</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Standar dan Metodologi Pengujian Penetrasi&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;standar-dan-metodologi-pengujian-penetrasi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#standar-dan-metodologi-pengujian-penetrasi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Berbagai metodologi pengujian penetrasi telah ada selama beberapa waktu dan terus diperbarui seiring munculnya ancaman baru. Berikut adalah beberapa metodologi dan standar pengujian penetrasi yang umum:&lt;/p&gt;
+&lt;h3&gt;1. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-mitre-attck&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;MITRE ATT&amp;amp;CK adalah kerangka kerja yang sangat berguna untuk mempelajari taktik, teknik, dan prosedur (TTP) dari seorang penyerang. Kerangka ini banyak digunakan oleh profesional keamanan ofensif (penguji penetrasi, red teamer, bug hunter, dll.) serta tim respon insiden dan pencari ancaman.&lt;/p&gt;
+&lt;p&gt;MITRE ATT&amp;amp;CK terdiri dari matriks yang mencakup taktik, teknik, dan subteknik. Matriks ini, termasuk &lt;strong&gt;Enterprise ATT&amp;amp;CK Matrix&lt;/strong&gt;, &lt;strong&gt;Network&lt;/strong&gt;, &lt;strong&gt;Cloud&lt;/strong&gt;, &lt;strong&gt;ICS&lt;/strong&gt;, dan &lt;strong&gt;Mobile&lt;/strong&gt;, menyajikan taktik dan teknik yang digunakan oleh penyerang dalam persiapan serangan, seperti pengumpulan informasi (open-source intelligence [OSINT], identifikasi kelemahan teknis dan manusia), serta berbagai teknik eksploitasi dan pasca-eksploitasi.&lt;/p&gt;
+&lt;h3&gt;2. OWASP WSTG&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-owasp-wstg&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-owasp-wstg&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;OWASP WSTG&lt;/strong&gt; adalah panduan komprehensif yang berfokus pada pengujian keamanan aplikasi web. Panduan ini merupakan hasil dari banyak tahun kerja anggota OWASP. &lt;strong&gt;OWASP WSTG&lt;/strong&gt; mencakup fase-fase tingkat tinggi dalam pengujian keamanan aplikasi web dan menjelaskan metode pengujian secara mendetail.&lt;/p&gt;
+&lt;p&gt;Panduan ini mencakup vektor serangan untuk menguji serangan seperti &lt;strong&gt;cross-site scripting (XSS)&lt;/strong&gt;, &lt;strong&gt;XML external entity (XXE)&lt;/strong&gt;, &lt;strong&gt;cross-site request forgery (CSRF)&lt;/strong&gt;, dan &lt;strong&gt;SQL injection&lt;/strong&gt;, serta cara untuk mencegah dan mengurangi serangan-serangan ini. Panduan ini adalah yang paling rinci dan lengkap dalam hal pengujian keamanan aplikasi web.&lt;/p&gt;
+&lt;p&gt;Anda dapat menemukan OWASP WSTG dan informasi proyek terkait di &lt;a href=&#34;https://owasp.org/www-project-web-security-testing-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://owasp.org/www-project-web-security-testing-guide/&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;3. NIST SP 800-115&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-nist-sp-800-115&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-nist-sp-800-115&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;NIST SP 800-115&lt;/strong&gt; adalah dokumen yang dikeluarkan oleh &lt;strong&gt;National Institute of Standards and Technology (NIST)&lt;/strong&gt;, yang merupakan bagian dari Departemen Perdagangan AS. Dokumen ini memberikan panduan kepada organisasi tentang cara merencanakan dan melaksanakan pengujian keamanan informasi.&lt;/p&gt;
+&lt;p&gt;NIST SP 800-115 menggantikan dokumen standar sebelumnya, &lt;strong&gt;SP 800-42&lt;/strong&gt;, dan dianggap sebagai standar industri untuk panduan pengujian penetrasi. Dokumen ini sering disebut dalam berbagai standar industri dan dokumen lainnya. Anda dapat mengakses NIST SP 800-115 di &lt;a href=&#34;https://csrc.nist.gov/publications/detail/sp/800-115/final&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://csrc.nist.gov/publications/detail/sp/800-115/final&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;4. OSSTMM (Open Source Security Testing Methodology Manual)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-osstmm-open-source-security-testing-methodology-manual&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-osstmm-open-source-security-testing-methodology-manual&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;OSSTMM&lt;/strong&gt; adalah metodologi pengujian keamanan yang dikembangkan oleh &lt;strong&gt;Pete Herzog&lt;/strong&gt; dan didistribusikan oleh &lt;strong&gt;Institute for Security and Open Methodologies (ISECOM)&lt;/strong&gt;. OSSTMM adalah dokumen yang memberikan panduan untuk pengujian keamanan yang dapat diulang dan konsisten. Versi saat ini adalah versi 3, sementara versi 4 masih dalam status draft.&lt;/p&gt;
+&lt;p&gt;OSSTMM memiliki beberapa bagian penting, di antaranya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operational Security Metrics&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trust Analysis&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work Flow&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Human Security Testing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physical Security Testing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wireless Security Testing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telecommunications Security Testing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Networks Security Testing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance Regulations&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelaporan dengan Security Test Audit Report (STAR)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Informasi lebih lanjut dapat ditemukan di &lt;a href=&#34;https://www.isecom.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://www.isecom.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isecom.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;5. PTES (Penetration Testing Execution Standard)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-ptes-penetration-testing-execution-standard&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-ptes-penetration-testing-execution-standard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;PTES&lt;/strong&gt; adalah standar eksekusi pengujian penetrasi yang menyediakan informasi mengenai jenis serangan dan metode, serta alat terbaru yang dapat digunakan untuk melakukan metode pengujian yang telah dijelaskan. PTES mencakup tujuh fase yang berbeda:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pre-engagement interactions&lt;/strong&gt; (Interaksi sebelum pengujian)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intelligence gathering&lt;/strong&gt; (Pengumpulan intelijen)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Threat modeling&lt;/strong&gt; (Pemodelan ancaman)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability analysis&lt;/strong&gt; (Analisis kerentanan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploitation&lt;/strong&gt; (Eksploitasi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post-exploitation&lt;/strong&gt; (Pasca-eksploitasi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reporting&lt;/strong&gt; (Pelaporan)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Informasi lebih lanjut dapat ditemukan di &lt;a href=&#34;http://www.pentest-standard.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.pentest-standard.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.pentest-standard.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;6. ISSAF (Information Systems Security Assessment Framework)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-issaf-information-systems-security-assessment-framework&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-issaf-information-systems-security-assessment-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ISSAF&lt;/strong&gt; adalah metodologi pengujian penetrasi yang serupa dengan metodologi lainnya, namun mencakup beberapa fase tambahan. ISSAF mencakup fase-fase berikut:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Information gathering&lt;/strong&gt; (Pengumpulan informasi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network mapping&lt;/strong&gt; (Pemetaan jaringan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability identification&lt;/strong&gt; (Identifikasi kerentanan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penetration&lt;/strong&gt; (Penetrasi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gaining access and privilege escalation&lt;/strong&gt; (Memperoleh akses dan peningkatan hak akses)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enumerating further&lt;/strong&gt; (Enumerasi lebih lanjut)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compromising remote users/sites&lt;/strong&gt; (Kompromi pengguna/situs jarak jauh)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintaining access&lt;/strong&gt; (Mempertahankan akses)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Covering the tracks&lt;/strong&gt; (Menghilangkan jejak)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Metodologi ini menawarkan pendekatan yang lebih luas dalam pengujian keamanan sistem.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Peran dan Tanggung Jawab Ethical Hacker</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi&lt;/strong&gt;: Ethical hacker atau white hat hacker adalah profesional keamanan siber yang secara etis mengidentifikasi dan mengeksploitasi kerentanan dalam sistem untuk meningkatkan keamanan dan mencegah serangan dari pihak yang tidak bertanggung jawab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peran Utama&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Penetration Testing&lt;/strong&gt;: Menguji kelemahan sistem melalui simulasi serangan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability Assessment&lt;/strong&gt;: Mengevaluasi dan mencari kerentanan yang ada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk Assessment&lt;/strong&gt;: Menilai risiko yang mungkin terjadi dari kerentanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security Awareness&lt;/strong&gt;: Meningkatkan kesadaran keamanan di dalam organisasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Incident Response&lt;/strong&gt;: Merespons dan memulihkan dari insiden keamanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Policy Development&lt;/strong&gt;: Mengembangkan kebijakan keamanan yang sesuai.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tanggung Jawab&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bertindak Etis&lt;/strong&gt; sesuai dengan kode etik dan hukum.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mendapatkan Izin&lt;/strong&gt; dari pemilik sistem sebelum melakukan pengujian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Melaporkan Temuan&lt;/strong&gt; secara detail kepada pihak berwenang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Menjaga Kerahasiaan&lt;/strong&gt; informasi yang diperoleh selama pengujian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memberikan Solusi&lt;/strong&gt; untuk memperbaiki kerentanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tidak Menyalahgunakan Akses&lt;/strong&gt; yang diperoleh selama pengujian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keterampilan yang Dibutuhkan&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Pemahaman mendalam tentang sistem operasi (Windows, Linux, Unix).&lt;/li&gt;
+&lt;li&gt;Pengetahuan jaringan (TCP/IP, firewall).&lt;/li&gt;
+&lt;li&gt;Penguasaan bahasa pemrograman (Python, Perl, C).&lt;/li&gt;
+&lt;li&gt;Kemampuan dalam penggunaan alat seperti Nmap, Metasploit.&lt;/li&gt;
+&lt;li&gt;Keterampilan komunikasi dan pemecahan masalah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Siklus Kerja Ethical Hacker&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Planning&lt;/strong&gt;: Menentukan target dan ruang lingkup pengujian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discovery&lt;/strong&gt;: Mengumpulkan informasi awal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scanning&lt;/strong&gt;: Memindai target untuk menemukan kerentanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploitation&lt;/strong&gt;: Mengeksploitasi kelemahan yang ditemukan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gaining Access&lt;/strong&gt;: Memperoleh dan meningkatkan hak akses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintaining Access&lt;/strong&gt;: Mempertahankan akses untuk jangka waktu tertentu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reporting&lt;/strong&gt;: Menyusun laporan temuan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Tugas Nyata&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Menguji keamanan aplikasi web, jaringan, sistem operasi, dan sistem kontrol industri.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kesimpulan&lt;/strong&gt;: Ethical hacker membantu melindungi aset digital organisasi melalui pendekatan etis dan keterampilan yang mumpuni dalam mendeteksi serta mengamankan potensi kerentanan.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;&lt;strong&gt;1. Hardware&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-hardware&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-hardware&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Komputer&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spesifikasi&lt;/strong&gt;: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Operasi&lt;/strong&gt;: Kebanyakan ethical hacker menggunakan distribusi Linux seperti &lt;strong&gt;Kali Linux&lt;/strong&gt;, &lt;strong&gt;Parrot OS&lt;/strong&gt;, atau &lt;strong&gt;BlackArch Linux&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jaringan&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Koneksi Internet&lt;/strong&gt;: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;2. Software&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-software&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-software&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distribusi Linux Khusus Hacking&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kali Linux&lt;/strong&gt;: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parrot OS&lt;/strong&gt;: Fokus pada keamanan dan privasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BlackArch Linux&lt;/strong&gt;: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtual Machine (VM)&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VirtualBox, VMware&lt;/strong&gt;: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manfaat&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengujian eksploitasi&lt;/strong&gt;: Menjalankan sistem operasi yang rentan untuk uji eksploitasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isolasi lingkungan&lt;/strong&gt;: Menghindari kontaminasi sistem utama.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pembuatan snapshot&lt;/strong&gt;: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tool Ethical Hacking&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nmap&lt;/strong&gt;: Untuk pemindaian port dan deteksi layanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metasploit&lt;/strong&gt;: Kerangka kerja populer untuk mengeksploitasi kerentanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Burp Suite&lt;/strong&gt;: Proxy web untuk hacking aplikasi web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wireshark&lt;/strong&gt;: Menganalisis lalu lintas jaringan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aircrack-ng&lt;/strong&gt;: Untuk cracking Wi-Fi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;John the Ripper&lt;/strong&gt;: Untuk cracking password.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hydra&lt;/strong&gt;: Untuk serangan brute force.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLmap&lt;/strong&gt;: Untuk injeksi SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;3. Work Environment&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-work-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-work-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Virtual Lab&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Platform&lt;/strong&gt;: &lt;strong&gt;Hack The Box&lt;/strong&gt;, &lt;strong&gt;TryHackMe&lt;/strong&gt;, &lt;strong&gt;Vulnhub&lt;/strong&gt; menyediakan lingkungan virtual untuk praktik ethical hacking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manfaat&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pembelajaran langsung&lt;/strong&gt;: Tantangan realistis untuk mengasah keterampilan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eksplorasi kerentanan&lt;/strong&gt;: Berbagai mesin virtual dengan kerentanan berbeda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physical Lab&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Membangun lab sendiri&lt;/strong&gt;: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manfaat&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengalaman lebih realistis&lt;/strong&gt;: Lingkungan yang lebih mirip dunia nyata.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eksperimen bebas&lt;/strong&gt;: Melakukan eksperimen yang lebih kompleks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;4. Contoh Praktik&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-contoh-praktik&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-contoh-praktik&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Skenario&lt;/strong&gt;: Ingin menguji kerentanan aplikasi web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Langkah&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Buat VM&lt;/strong&gt;: Buat VM dengan sistem operasi yang sama dengan aplikasi target.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install aplikasi web&lt;/strong&gt;: Pasang aplikasi pada VM.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jalankan Burp Suite&lt;/strong&gt;: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temukan kerentanan&lt;/strong&gt;: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eksploitasi&lt;/strong&gt;: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Kesimpulan&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kesimpulan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kesimpulan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Dengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Python Hello World</title>
+      <link>https://nancynesia.com/docs/coding/python_fundamentals/python_hello_world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/coding/python_fundamentals/python_hello_world/</guid>
       <description>
         
         
@@ -45,6 +503,35 @@
 &lt;p&gt;In Python, we use &lt;code&gt;print()&lt;/code&gt; to show words on the screen. The words go inside quotation marks.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;Hello World!&amp;rdquo; program in Python:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;print(&amp;quot;Hello World!&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sejarah Internet Indonesia</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sejarah internet di Indonesia mencerminkan perjuangan panjang yang melibatkan antusiasme komunitas teknologi informasi dan pendidikan. Kehadiran internet di Indonesia sangat erat kaitannya dengan pengenalan open source, pendidikan teknologi, serta kolaborasi komunitas yang berperan dalam mengembangkan infrastruktur jaringan di tanah air.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pengembangan Internet di Indonesia&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perjuangan untuk membawa dan mengembangkan internet di Indonesia dimulai sejak era 1990-an dengan peran sentral berbagai individu yang gemar dan terampil di bidang teknologi informasi. Ini mencakup pengembangan komunitas, pendidikan, dan pengenalan internet serta jaringan komputer melalui kegiatan seperti pelatihan, pengenalan teknologi berbasis open source, dan proyek komunitas lainnya.&lt;/li&gt;
+&lt;li&gt;Proyek penelitian &amp;ldquo;Social Construction of Technology Research Group&amp;rdquo; (SCoT) oleh Dr. Joshua Barker dan Dr. Merlyna Lim turut berperan dalam mendokumentasikan perkembangan internet di Indonesia. Mereka mendokumentasikan hasil penelitian yang dipublikasikan secara daring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Perkembangan Melalui Wikibook dan SpeedyWiki&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wikibook Sejarah Internet Indonesia&lt;/strong&gt; awalnya dirancang sebagai sarana untuk mendokumentasikan berbagai kejadian penting dalam sejarah internet Indonesia. Proyek ini diawali di situs Wikibooks, tetapi kemudian dipindahkan ke platform lain karena alasan ketidaksesuaian dengan kebijakan Wikibooks.&lt;/li&gt;
+&lt;li&gt;Pada tahun 2007, pengembangan dokumentasi sejarah internet juga dilakukan melalui SpeedyWiki, sebuah wiki komunitas yang dimulai oleh Speedy dari Telkom Multimedia. Artikel pertama mengenai sejarah internet di SpeedyWiki berjudul &amp;ldquo;Sejarah Internet Indonesia: Pra-Sejarah Internet 1970-1993&amp;rdquo; yang ditulis oleh Onno Purbo, seorang tokoh penting dalam pengembangan teknologi informasi di Indonesia. SpeedyWiki menjadi media untuk menyebarluaskan informasi dan pengetahuan mengenai sejarah internet di Indonesia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kontribusi bagi Bangsa&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dokumentasi sejarah internet melalui inisiatif seperti Wikibook dan SpeedyWiki memiliki tujuan untuk menginspirasi masyarakat Indonesia dalam memahami perjalanan teknologi internet di tanah air. Diharapkan inisiatif ini akan terus berkembang dan memberikan kontribusi yang langgeng bagi kemajuan teknologi informasi di Indonesia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Perjuangan pengembangan internet di Indonesia menunjukkan semangat kolaborasi dan pentingnya peran komunitas dalam membangun fondasi internet yang bermanfaat bagi masyarakat luas.&lt;/p&gt;
 
       </description>
     </item>

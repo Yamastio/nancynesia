@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Coding</title>
-    <link>http://localhost:1313/docs/coding/</link>
+    <link>https://nancynesia.com/docs/coding/</link>
     <description>Recent content in Coding on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/coding/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://nancynesia.com/docs/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/android_projects/</link>
+      <link>https://nancynesia.com/docs/coding/android_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/android_projects/</guid>
+      <guid>https://nancynesia.com/docs/coding/android_projects/</guid>
       <description>
         
         
@@ -29,10 +29,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/android_studio_jetpack_compose/</link>
+      <link>https://nancynesia.com/docs/coding/android_studio_jetpack_compose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/android_studio_jetpack_compose/</guid>
+      <guid>https://nancynesia.com/docs/coding/android_studio_jetpack_compose/</guid>
       <description>
         
         
@@ -42,10 +42,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/coding_tools/</link>
+      <link>https://nancynesia.com/docs/coding/coding_tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/coding_tools/</guid>
+      <guid>https://nancynesia.com/docs/coding/coding_tools/</guid>
       <description>
         
         
@@ -55,10 +55,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/computational/</link>
+      <link>https://nancynesia.com/docs/coding/computational/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/computational/</guid>
+      <guid>https://nancynesia.com/docs/coding/computational/</guid>
       <description>
         
         
@@ -68,10 +68,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/devops_fundamentals/</link>
+      <link>https://nancynesia.com/docs/coding/devops_fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/devops_fundamentals/</guid>
+      <guid>https://nancynesia.com/docs/coding/devops_fundamentals/</guid>
       <description>
         
         
@@ -81,10 +81,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/java_oop/</link>
+      <link>https://nancynesia.com/docs/coding/java_oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/java_oop/</guid>
+      <guid>https://nancynesia.com/docs/coding/java_oop/</guid>
       <description>
         
         
@@ -94,10 +94,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/mysql/</link>
+      <link>https://nancynesia.com/docs/coding/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/mysql/</guid>
+      <guid>https://nancynesia.com/docs/coding/mysql/</guid>
       <description>
         
         
@@ -107,10 +107,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/docs/coding/php_oop/</link>
+      <link>https://nancynesia.com/docs/coding/php_oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/php_oop/</guid>
+      <guid>https://nancynesia.com/docs/coding/php_oop/</guid>
       <description>
         
         
@@ -120,10 +120,10 @@
     
     <item>
       <title>Python Fundamental</title>
-      <link>http://localhost:1313/docs/coding/python_fundamentals/</link>
+      <link>https://nancynesia.com/docs/coding/python_fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/coding/python_fundamentals/</guid>
+      <guid>https://nancynesia.com/docs/coding/python_fundamentals/</guid>
       <description>
         
         

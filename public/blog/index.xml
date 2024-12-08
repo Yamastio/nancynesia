@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://nancynesia.com/blog/</link>
     <description>Recent content in Blog on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://nancynesia.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,11 +16,154 @@
     
     
     <item>
+      <title>Mengapa Kita Perlu Melakukan Penetration Testing</title>
+      <link>https://nancynesia.com/blog/mengapa-kita-perlu-melakukan-penetration-testing/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/blog/mengapa-kita-perlu-melakukan-penetration-testing/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Mengapa Perlu Pentest&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;mengapa-perlu-pentest&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mengapa-perlu-pentest&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebagai pengingat, istilah &lt;strong&gt;ethical hacker&lt;/strong&gt; menggambarkan seseorang yang bertindak seperti penyerang dan mengevaluasi keamanan jaringan komputer dengan tujuan meminimalkan risiko. &lt;strong&gt;NIST Computer Security Resource Center (CSRC)&lt;/strong&gt; mendefinisikan seorang &lt;strong&gt;hacker&lt;/strong&gt; sebagai &amp;ldquo;pengguna tidak sah yang mencoba atau berhasil mengakses sistem informasi.&amp;rdquo; Istilah hacker telah digunakan dengan berbagai cara dan memiliki banyak definisi. Kebanyakan orang di bidang teknologi komputer menganggap diri mereka sebagai hacker hanya karena mereka suka mengutak-atik sesuatu, yang jelas bukan hal yang jahat.&lt;/p&gt;
+&lt;p&gt;Faktor kunci dalam membedakan &lt;strong&gt;ethical hacking&lt;/strong&gt; dan &lt;strong&gt;nonethical hacking&lt;/strong&gt; adalah bahwa yang terakhir melibatkan &lt;strong&gt;niat jahat&lt;/strong&gt;. Izin untuk menyerang atau melakukan pengujian adalah hal yang penting dan akan melindungi Anda dari masalah! Izin ini sering disebut sebagai &lt;strong&gt;scope&lt;/strong&gt; (cakupan) dari pengujian, yang menentukan apa yang boleh dan tidak boleh diuji.&lt;/p&gt;
+&lt;p&gt;Seorang peneliti keamanan yang mencari celah dalam produk, aplikasi, atau layanan web dan melaporkan temuan mereka kepada vendor atau pemilik layanan tersebut dianggap sebagai &lt;strong&gt;ethical hacker&lt;/strong&gt;. Namun, seseorang yang menggunakan celah keamanan untuk mendapatkan akses tidak sah akan dianggap sebagai &lt;strong&gt;nonethical hacker&lt;/strong&gt;. Bahkan, seseorang yang menemukan celah dan mempublikasikannya tanpa berkolaborasi dengan vendor juga dianggap &lt;strong&gt;nonethical&lt;/strong&gt; karena bisa memicu kompromi jaringan/sistem oleh pihak lain yang berniat jahat.&lt;/p&gt;
+&lt;p&gt;Sebagai &lt;strong&gt;ethical hacker&lt;/strong&gt;, Anda menggunakan alat yang sama untuk menemukan celah dan mengeksploitasi target seperti yang digunakan oleh &lt;strong&gt;nonethical hackers&lt;/strong&gt;. Namun, sebagai ethical hacker, Anda melaporkan temuan Anda kepada vendor atau pelanggan untuk membantu meningkatkan keamanan jaringan. Anda juga menghindari melakukan uji atau eksploitasi yang dapat merusak.&lt;/p&gt;
+&lt;p&gt;Tujuan &lt;strong&gt;ethical hacker&lt;/strong&gt; adalah menganalisis &lt;strong&gt;postur keamanan&lt;/strong&gt; dari infrastruktur jaringan atau sistem untuk mengidentifikasi dan mungkin mengeksploitasi kelemahan keamanan. Proses ini dikenal sebagai &lt;strong&gt;security penetration testing&lt;/strong&gt; atau &lt;strong&gt;ethical hacking&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Jadi, mengapa kita perlu melakukan &lt;strong&gt;penetration testing&lt;/strong&gt;? Pertama-tama, sebagai seseorang yang bertanggung jawab untuk mengamankan dan mempertahankan jaringan/sistem, Anda ingin menemukan jalur kemungkinan serangan sebelum para peretas jahat melakukannya. Selama bertahun-tahun, kita telah mengembangkan dan menerapkan berbagai teknik pertahanan, seperti &lt;strong&gt;antivirus, firewall, intrusion prevention systems (IPS), dan anti-malware&lt;/strong&gt;. Kita juga telah menerapkan konsep &lt;strong&gt;defense-in-depth&lt;/strong&gt; untuk mengamankan dan mempertahankan jaringan.&lt;/p&gt;
+&lt;p&gt;Namun, bagaimana kita tahu apakah pertahanan itu benar-benar efektif dan cukup untuk menahan serangan? Seberapa berharganya data yang kita lindungi, dan apakah kita melindungi hal-hal yang tepat? Pertanyaan-pertanyaan ini harus dijawab melalui &lt;strong&gt;penetration test&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Contohnya, jika Anda membangun pagar di sekitar halaman dengan tujuan agar anjing Anda tidak keluar, mungkin cukup dengan pagar setinggi 4 kaki. Namun, jika Anda khawatir bukan hanya anjing keluar, tetapi juga penyusup masuk, Anda memerlukan pagar yang lebih tinggi dan lebih aman, mungkin dengan kawat berduri di atasnya untuk menghalau penjahat. Dalam keamanan informasi, kita perlu melakukan penilaian yang serupa terhadap jaringan dan sistem kita. Kita harus menentukan apa yang kita lindungi dan apakah pertahanan kita cukup kuat untuk menahan ancaman yang ada.&lt;/p&gt;
+&lt;p&gt;Inilah pentingnya &lt;strong&gt;penetration testing&lt;/strong&gt;. Menerapkan firewall, IPS, anti-malware, VPN, dan &lt;strong&gt;web application firewall (WAF)&lt;/strong&gt; saja tidak cukup. Anda juga perlu menguji keabsahannya secara berkala, karena jaringan dan sistem berubah terus-menerus, sehingga permukaan serangan pun dapat berubah. Ketika ini terjadi, Anda perlu mempertimbangkan untuk mengevaluasi kembali postur keamanan melalui &lt;strong&gt;penetration test&lt;/strong&gt;.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Top Hacking Books for 2024</title>
+      <link>https://nancynesia.com/blog/top-hacking-books-for-2024/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/blog/top-hacking-books-for-2024/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Rekomendasi Buku Hacking 2024&lt;/p&gt;
+&lt;p&gt;References: &lt;a href=&#34;https://youtu.be/r0P5vLcXpjY?si=Ni7enHdUkgNPe1u_&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Bombal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;How To Hack Like A Legend : Sparc Flow
+Ethical Hacking: A Hand-On Introduction To Breaking in Daniel G. Graham
+Linux Basic For Hackers: Occuphytheweb
+Extreme Privacy: Michael Bazzel&lt;/p&gt;
+&lt;h3&gt;1. The Web Application Hackers Handbook: Finding and Exploiting Security Flaws 2nd Edition by Dafydd Stuttard&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-the-web-application-hackers-handbook-finding-and-exploiting-security-flaws-2nd-edition-by-dafydd-stuttard&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-the-web-application-hackers-handbook-finding-and-exploiting-security-flaws-2nd-edition-by-dafydd-stuttard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Diterbitkan pertama tahun 2011, dimana internet sendiri masih belum rumit seperti sekarang.&lt;/li&gt;
+&lt;li&gt;Sangat rekomendasi untuk belajar tingkat dasar kerentanan suatu sistem. Beberapa kerentanan keamanan yang baru mungkin tidak ada dibuku ini, tapi ini sangat membantu untuk belajar keamanan dasar bagi pemula.&lt;/li&gt;
+&lt;li&gt;Ditulis oleh Dafydd Stuttard -&amp;gt; Bekerja di portswigger yang membuat Burpsuite&lt;/li&gt;
+&lt;li&gt;Penulis kedua Marcus Pinto -&amp;gt; Owner dari MDSec, salah satu best company di UK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Portswigger Web Security Academy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-portswigger-web-security-academy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-portswigger-web-security-academy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Versi ketiga dari bukunya Dafydd Stutard&lt;/li&gt;
+&lt;li&gt;Link web: &lt;a href=&#34;https://portswigger.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://portswigger.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disitu terdapat beberapa kerentanan dan tipe serangan yang sedang tren saat ini&lt;/li&gt;
+&lt;li&gt;Selain itu disini juga terdapat lab, untuk praktik melakukan serangan&lt;/li&gt;
+&lt;li&gt;Salah satu resources yang terbaik untuk web app hacking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gratis&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. OWASP Testing Guide&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-owasp-testing-guide&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-owasp-testing-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Berisi panduan menyeluruh tentang pentesting web application&lt;/li&gt;
+&lt;li&gt;Link web: &lt;a href=&#34;https://owasp.org/www-project-web-security-testing-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://owasp.org/www-project-web-security-testing-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Di web tersebut juga ada versi pdf nya untuk yang saat ini, versi pdf 4.2, bisa download &lt;strong&gt;gratis&lt;/strong&gt; disana&lt;/li&gt;
+&lt;li&gt;Kekuranganya adalah terlalu padat isinya, kadang lebih baik menggunakan cheatsheet&lt;/li&gt;
+&lt;li&gt;Selain itu ada juga github repository nya, yang kita bisa mudah mencari topik tertentu mengenai hacking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Real World Bug Hunting by Peter Yaworski&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-real-world-bug-hunting-by-peter-yaworski&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-real-world-bug-hunting-by-peter-yaworski&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Authornya sendiri adalah bug bounty hunter yang terkenal hingga saat ini&lt;/li&gt;
+&lt;li&gt;Bukunya berisi kerentanan web yang ada di situs web yang nyata seperti Uber&lt;/li&gt;
+&lt;li&gt;Menyajikan pengalaman nyata yang terjadi di dunia nyata&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Bug Bounty Bootcamp by Vickie Li&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-bug-bounty-bootcamp-by-vickie-li&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-bug-bounty-bootcamp-by-vickie-li&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sedikit lebih baru dari bukunya Peter&lt;/li&gt;
+&lt;li&gt;Banyak resource mengenai Web Bug Bounty disini&lt;/li&gt;
+&lt;li&gt;Banyak Metodologi Reconnaisance disini&lt;/li&gt;
+&lt;li&gt;Rekomendasi untuk orang yang tertarik dengan Bug Bounty atau Web Hacking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. Red Team Field Manual by Ben Clark &amp;amp; Nick Downer&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-red-team-field-manual-by-ben-clark--nick-downer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-red-team-field-manual-by-ben-clark--nick-downer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sedikit ketinggalan jaman&lt;/li&gt;
+&lt;li&gt;Kumpulan sintaks untuk red team&lt;/li&gt;
+&lt;li&gt;Banyak materi Poweshell, Bash untuk membuat script sendiri&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. Red Team Development And Operations by Joe Vest&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-red-team-development-and-operations-by-joe-vest&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-red-team-development-and-operations-by-joe-vest&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Berisi tentang bagaimana bekerja dengan tim&lt;/li&gt;
+&lt;li&gt;Manajemen tim&lt;/li&gt;
+&lt;li&gt;Rekomendasi untuk orang yang sedang merintis Red Tim sendiri&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. Operators Handbook by Netmux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;8-operators-handbook-by-netmux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-operators-handbook-by-netmux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Isi dari buku mencakup Red, Blue, OSINT&lt;/li&gt;
+&lt;li&gt;Berisi sintaks juga sama seperi Buku di atas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;9. Tribe Of Hackers Red Team by Marcus J.Carey &amp;amp; Jenifer Jin&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;9-tribe-of-hackers-red-team-by-marcus-jcarey--jenifer-jin&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9-tribe-of-hackers-red-team-by-marcus-jcarey--jenifer-jin&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Lebih membicarakan mengenai asal usul&lt;/li&gt;
+&lt;li&gt;Tentang langkah apa yang mereka ambil, Bagaimana cara memulai karir, dll&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;10. Pentester Blueprint by Philip L.Wylie&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;10-pentester-blueprint-by-philip-lwylie&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#10-pentester-blueprint-by-philip-lwylie&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Bagaimana anda memulai karir di ofensive siber sekuriti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;11. Osint Technique: Resource For Uncovering Online Information by Michael Bazzel&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;11-osint-technique-resource-for-uncovering-online-information-by-michael-bazzel&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11-osint-technique-resource-for-uncovering-online-information-by-michael-bazzel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Michael sendiri dikenal sebagai bapak OSINT&lt;/li&gt;
+&lt;li&gt;Buku ke-10 dari pak Michael&lt;/li&gt;
+&lt;li&gt;Salah satu resources terbaik untuk OSINT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;12. Evading EDR by Matt Hand&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;12-evading-edr-by-matt-hand&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12-evading-edr-by-matt-hand&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Panduan Bypass&lt;/li&gt;
+&lt;li&gt;Defeating Endpoint Detection System&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;13. Black Hat Graphql by Nick Aleks&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;13-black-hat-graphql-by-nick-aleks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13-black-hat-graphql-by-nick-aleks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Berisi mengenai API Attack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;14. Hacking API by Corey J.Ball&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;14-hacking-api-by-corey-jball&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14-hacking-api-by-corey-jball&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;API hacking book&lt;/li&gt;
+&lt;li&gt;Fokus pada API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;15. Black Hat Go by Tom Steele&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;15-black-hat-go-by-tom-steele&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15-black-hat-go-by-tom-steele&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ketika belajar hacking, kita tidak perlu belajar frontend atau backend, tapi belajar bagaimana cara menulis script, maka dari itu perlu buku ini.&lt;/li&gt;
+&lt;li&gt;Untuk saat ini banyak alat yang dibuat dengan bahasa Go&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;16. Black Hat Python by Justin Seitz 2n Editions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;16-black-hat-python-by-justin-seitz-2n-editions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#16-black-hat-python-by-justin-seitz-2n-editions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sangat rekomendasi untuk pemula&lt;/li&gt;
+&lt;li&gt;Untuk pemula bisa belajar ini dulu baru ke bahasa GO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;17. Black Hat Bash by Dolev Fahri&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;17-black-hat-bash-by-dolev-fahri&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#17-black-hat-bash-by-dolev-fahri&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Bash scripting for Hackers And Pentester&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;18. Zseno&amp;rsquo;s Methodology&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;18-zsenos-methodology&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#18-zsenos-methodology&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Zseano adalah salah satu peretas handal di hackerone&lt;/li&gt;
+&lt;li&gt;Bug Bounty&lt;/li&gt;
+&lt;li&gt;Pendekatan bagaimana cara menemukan bug&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Hands-on Setup Lab dan Lingkungan Testing Aman</title>
-      <link>http://localhost:1313/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</link>
+      <link>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</guid>
+      <guid>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</guid>
       <description>
         
         
@@ -111,10 +254,10 @@
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/blog/markdown/</link>
+      <link>https://nancynesia.com/blog/markdown/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/markdown/</guid>
+      <guid>https://nancynesia.com/blog/markdown/</guid>
       <description>
         
         

@@ -39,7 +39,7 @@ params:
     enable: true
     displayCopyright: true
     displayPoweredBy: false
-    width: normal
+    width: medium
 
   displayUpdatedDate: true
-  dateFormat: "Desember 7, 2024"
+  dateFormat: "02-01-2006"
