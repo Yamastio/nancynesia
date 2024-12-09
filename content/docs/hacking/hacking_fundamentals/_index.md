@@ -17,5 +17,8 @@ Halaman ini berisi panduan dan materi tentang dasar-dasar hacking dan keamanan s
 {{< card link="./peran_dan_tanggung_jawab_ethical_hacker/" title="Peran dan Tanggung Jawab Ethical Hacker" icon="document-text">}}
 {{< card link="./perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" title="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)" icon="document-text">}}
 {{< card link="./sejarah_internet_indonesia/" title="Sejarah Internet Indonesia" icon="document-text">}}
+{{< card link="./memahami-command-injection/" title="Memahami Command Injection" icon="document-text">}}
+{{< card link="./memahami-file-inclusion/" title="Memahami File Inclusion" icon="document-text">}}
+{{< card link="./instalasi-lab-dvwa/" title="Instalasi Lab DVWA" icon="document-text">}}
 {{< /cards >}}
 

@@ -10,5 +10,5 @@ Selamat datang di halaman Hacking! Halaman ini menyajikan berbagai catatan, pand
 ## Daftar Isi
 
 {{< cards >}}
-{{< card link="./hacking_fundamentals/" title="hacking_fundamentals" icon="document-text">}}
+{{< card link="./hacking_fundamentals/" title="Hacking Fundamental" icon="document-text">}}
 {{< /cards >}}

