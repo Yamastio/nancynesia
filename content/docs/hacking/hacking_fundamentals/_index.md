@@ -20,5 +20,6 @@ Halaman ini berisi panduan dan materi tentang dasar-dasar hacking dan keamanan s
 {{< card link="./memahami-command-injection/" title="Memahami Command Injection" icon="document-text">}}
 {{< card link="./memahami-file-inclusion/" title="Memahami File Inclusion" icon="document-text">}}
 {{< card link="./instalasi-lab-dvwa/" title="Instalasi Lab DVWA" icon="document-text">}}
+{{< card link="./memahami-csrf/" title="Memahami CSRF" icon="document-text">}}
 {{< /cards >}}
 

@@ -575,6 +575,228 @@ Hasil: Membaca isi file &lt;code&gt;index.php&lt;/code&gt; jika memiliki izin ak
     </item>
     
     <item>
+      <title>Memahami CSRF</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-csrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-csrf/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu CSRF?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.&lt;/p&gt;
+&lt;h2&gt;Dampak&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dampak&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#dampak&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional.&lt;/p&gt;
+&lt;h2&gt;Alur CSRF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;alur-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#alur-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/csrf.svg&#34; alt=&#34;csrf&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ilustrasi di atas menunjukkan bagaimana hacker mengirim link phishing yang memuat permintaan untuk mengubah informasi akun korban.&lt;/li&gt;
+&lt;li&gt;Cara kerja CSRF:
+&lt;ol&gt;
+&lt;li&gt;Hacker membuat permintaan palsu (misalnya mengubah password akun).&lt;/li&gt;
+&lt;li&gt;Hacker mengirimkan permintaan ini melalui link yang terlihat sah kepada korban.&lt;/li&gt;
+&lt;li&gt;Ketika korban mengklik link tersebut, browser mereka otomatis mengirimkan permintaan beserta sesi cookie aktif, tanpa disadari oleh korban.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Contoh: Hacker mengirim permintaan perubahan password, sehingga korban percaya dan tanpa sengaja mengubah password sesuai keinginan hacker.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Alat untuk Mendeteksi CSRF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;alat-untuk-mendeteksi-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#alat-untuk-mendeteksi-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Burp Suite&lt;/strong&gt;: Membantu menganalisis dan memanipulasi request.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IBM AppScan&lt;/strong&gt;: Alat komersial untuk mengidentifikasi berbagai kerentanan termasuk CSRF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OWASP ZAP (Zed Attack Proxy)&lt;/strong&gt;: Alat gratis yang dikembangkan oleh OWASP untuk pengujian keamanan aplikasi web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pencegahan CSRF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pencegahan-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pencegahan-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Validasi Request&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Memastikan setiap permintaan yang dikirim berasal dari pengguna yang sah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSRF Token&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Menyisipkan token unik di setiap permintaan.&lt;/li&gt;
+&lt;li&gt;Token ini harus divalidasi oleh server untuk memverifikasi permintaan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Referer Header&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Memastikan bahwa permintaan berasal dari halaman yang sah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sesi yang Aman&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Gunakan sesi cookie dengan atribut &lt;code&gt;SameSite&lt;/code&gt; untuk membatasi akses lintas situs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Batasi HTTP Methods&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Gunakan metode POST untuk permintaan yang sensitif.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;3 Kondisi Serangan CSRF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-kondisi-serangan-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-kondisi-serangan-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;A Relevant Action&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Serangan CSRF biasanya ditargetkan pada aksi yang istimewa atau sensitif, seperti mengubah data pengguna atau melakukan transaksi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cookie-based Session Handling&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Sistem hanya memvalidasi sesi cookie, sehingga hacker dapat memanfaatkannya untuk mengirim permintaan palsu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Unpredictable Request Parameter&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Permintaan dengan parameter yang mudah ditebak oleh hacker, seperti &lt;code&gt;password_new=smithy&lt;/code&gt; atau &lt;code&gt;email=newuser@domain.com&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Contoh Praktis&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contoh-praktis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contoh-praktis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Misalkan sebuah aplikasi memungkinkan pengguna mengubah alamat email mereka. Permintaan HTTP-nya seperti ini:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;POST /email/change HTTP/1.1
+Host: vulnerable-website.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Cookie: session=yvthwsztyeQkAPzeQ5gHgTv1yxHfsAfE
+email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Permintaan di atas memenuhi 3 kondisi serangan CSRF. Hacker dapat membuat halaman web dengan kode HTML berikut:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://vulnerable-website.com/email/change?email=attacker@malicious.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;display:none;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Jika korban membuka halaman ini saat sedang login, browser mereka akan secara otomatis menyertakan cookie sesi aktif dalam permintaan, dan alamat email mereka akan diubah tanpa izin.&lt;/p&gt;
+&lt;h2&gt;Demo di DVWA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;demo-di-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#demo-di-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Setup Awal&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Buka DVWA di dua jendela browser: satu di mode biasa dan satu di mode private.&lt;/li&gt;
+&lt;li&gt;Login sebagai &lt;strong&gt;admin&lt;/strong&gt; di jendela private.&lt;/li&gt;
+&lt;li&gt;Login sebagai &lt;strong&gt;smithy&lt;/strong&gt; (akun hacker) di jendela biasa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tujuan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mengubah password admin menggunakan akun smithy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Langkah-Langkah&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Login sebagai smithy dan buka menu &amp;ldquo;CSRF&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Masukkan username dan password untuk smithy, lalu klik &amp;ldquo;Change&amp;rdquo; untuk melihat bahwa password dapat diubah menggunakan parameter GET.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/csrfchange.png&#34; alt=&#34;csrfchange&#34; loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;https://nancynesia.com/images/csrfget.png&#34; alt=&#34;csrfget&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Membuat Exploit&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Buat file HTML dengan konten berikut:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div class=&#34;filename&#34; dir=&#34;auto&#34;&gt;index.html&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;You won 1000 bitcoins!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://localhost:4280/vulnerabilities/csrf/?password_new=smithy&amp;amp;password_conf=smithy&amp;amp;change=Change&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;gt;Click here to claim your reward!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Menjalankan Server Lokal&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simpan file HTML tersebut dan jalankan server lokal:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m http.server &lt;span style=&#34;color:#ae81ff&#34;&gt;8000&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Periksa alamat IP lokal dengan &lt;code&gt;ifconfig&lt;/code&gt; atau &lt;code&gt;ipconfig&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Serangan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Buka file HTML di browser admin (korban) menggunakan IP lokal, misalnya: &lt;code&gt;http://192.168.8.120:8000/index.html&lt;/code&gt;.
+&lt;img src=&#34;https://nancynesia.com/images/phising.png&#34; alt=&#34;phising&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Klik link di halaman tersebut. Password admin akan otomatis berubah menjadi &amp;ldquo;smithy&amp;rdquo;.
+&lt;img src=&#34;https://nancynesia.com/images/success.png&#34; alt=&#34;success&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Validasi&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Login kembali sebagai admin menggunakan password baru (&amp;ldquo;smithy&amp;rdquo;) di browser hacker.&lt;/li&gt;
+&lt;li&gt;Admin tidak dapat login dengan password lama.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pencegahan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan CSRF token untuk memvalidasi setiap permintaan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Memahami File Inclusion</title>
       <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
