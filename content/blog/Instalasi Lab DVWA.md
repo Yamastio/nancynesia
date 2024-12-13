@@ -9,6 +9,8 @@ tags:
   - hacking_fundamentals
 ---
 
+<!--more-->
+
 ## Apa itu DVWA?
 
 DVWA atau Damn Vulnerable Web Application, merupakan web yang memang sengaja dibuat rentan untuk tujuan praktik hacking. Hacker pemula bisa belajar disini untuk menguji kemampuanya dengan mengeksplorasi kerentanan yang ada.

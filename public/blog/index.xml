@@ -5,7 +5,7 @@
     <description>Recent content in Blog on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,6 +14,94 @@
         
       
     
+    
+    <item>
+      <title>Instalasti Lab DVWA</title>
+      <link>http://localhost:1313/blog/instalasi-lab-dvwa/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/instalasi-lab-dvwa/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu DVWA?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DVWA atau Damn Vulnerable Web Application, merupakan web yang memang sengaja dibuat rentan untuk tujuan praktik hacking. Hacker pemula bisa belajar disini untuk menguji kemampuanya dengan mengeksplorasi kerentanan yang ada.&lt;/p&gt;
+&lt;h2&gt;Tujuan DVWA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tujuan-dvwa&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tujuan-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tujuanya adalah untuk membuat area praktik hacking yang legal, karena web ini memang dengan sengaja dibuat untuk kebutuhan praktik cybersecurity. DVWA sendiri dibuat dengan berbagai macam tingkat kesulitan yang bisa di pilih saat didalam web nantinya.&lt;/p&gt;
+&lt;h2&gt;Cara Instalasi DVWA dengan Docker:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cara-instalasi-dvwa-dengan-docker&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cara-instalasi-dvwa-dengan-docker&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install Docker&lt;/strong&gt; terlebih dahulu jika belum terpasang. Langkahnya instalasi bisa ke web official &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone repository DVWA&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/digininja/DVWA.git&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Masuk ke folder DVWA&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;cd DVWA&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jalankan DVWA dengan Docker Compose&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Akses DVWA&lt;/strong&gt; melalui browser di port yang disediakan (misalnya, &lt;code&gt;http://localhost&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Login&lt;/strong&gt; menggunakan username &lt;code&gt;admin&lt;/code&gt; dan password &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pastikan minimal setup check&lt;/strong&gt; sudah berhasil dan berwarna hijau, lalu klik &lt;strong&gt;&amp;ldquo;Create&amp;rdquo;&lt;/strong&gt; atau &lt;strong&gt;&amp;ldquo;Reset Database&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setelah berhasil, Anda akan diarahkan ke halaman admin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+      </description>
+    </item>
     
     <item>
       <title>Fix Syntax Highlighting tidak aktif di Terminal Kali Linux</title>
@@ -678,95 +766,6 @@ Extreme Privacy: Michael Bazzel&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/formats/#markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Instalasi Lab DVWA</title>
-      <link>http://localhost:1313/blog/instalasi-lab-dvwa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/instalasi-lab-dvwa/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Apa itu DVWA?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-dvwa&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#apa-itu-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DVWA atau Damn Vulnerable Web Application, merupakan web yang memang sengaja dibuat rentan untuk tujuan praktik hacking. Hacker pemula bisa belajar disini untuk menguji kemampuanya dengan mengeksplorasi kerentanan yang ada.&lt;/p&gt;
-&lt;h2&gt;Tujuan DVWA&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tujuan-dvwa&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#tujuan-dvwa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tujuanya adalah untuk membuat area praktik hacking yang legal, karena web ini memang dengan sengaja dibuat untuk kebutuhan praktik cybersecurity. DVWA sendiri dibuat dengan berbagai macam tingkat kesulitan yang bisa di pilih saat didalam web nantinya.&lt;/p&gt;
-&lt;h2&gt;Cara Instalasi DVWA dengan Docker:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cara-instalasi-dvwa-dengan-docker&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cara-instalasi-dvwa-dengan-docker&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install Docker&lt;/strong&gt; terlebih dahulu jika belum terpasang. Langkahnya instalasi bisa ke web official &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Clone repository DVWA&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-  
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/digininja/DVWA.git&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-  
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Masuk ke folder DVWA&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-  
-
-&lt;pre&gt;&lt;code&gt;cd DVWA&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-  
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Jalankan DVWA dengan Docker Compose&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-  
-
-&lt;pre&gt;&lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-  
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Akses DVWA&lt;/strong&gt; melalui browser di port yang disediakan (misalnya, &lt;code&gt;http://localhost&lt;/code&gt;).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Login&lt;/strong&gt; menggunakan username &lt;code&gt;admin&lt;/code&gt; dan password &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Pastikan minimal setup check&lt;/strong&gt; sudah berhasil dan berwarna hijau, lalu klik &lt;strong&gt;&amp;ldquo;Create&amp;rdquo;&lt;/strong&gt; atau &lt;strong&gt;&amp;ldquo;Reset Database&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Setelah berhasil, Anda akan diarahkan ke halaman admin.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
       </description>
     </item>
     
