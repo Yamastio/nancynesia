@@ -10,28 +10,27 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>Memahami CSRF – Nancynesia</title>
-  <meta name="description" content="Apa itu CSRF?Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.
-DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional." /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-csrf/" itemprop="url" />
+<title>Web Penentration Testing – Nancynesia</title>
+  <meta name="description" content="Apa itu Web Penentration TestingWeb Penentration Testing adalah pengujian kerentanan web, dengan cara memposisikan seorang penguji seperti hacker, dari pola pikir sampai cara kerjanya, perbedaanya adalah Penentration Testing ini dilakukan atas persetujuan dan dengan izin dari pemilik sah web target.
+Tujuanya adalah untuk mencari kerentanan yang ada dalam teknologi yang digunakan, lalu memberikan laporan terhadap kerentanan yang ada sehingga pemilik web mampu memberikan penanganan sebelum terjadinya serangan yang nyata." /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/web-hacking/" itemprop="url" />
 
-<meta property="og:title" content="Memahami CSRF" />
-<meta property="og:description" content="Apa itu CSRF?
-    Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.
-Dampak
-    Dampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional." />
+<meta property="og:title" content="Web Penentration Testing" />
+<meta property="og:description" content="Apa itu Web Penentration Testing
+    Web Penentration Testing adalah pengujian kerentanan web, dengan cara memposisikan seorang penguji seperti hacker, dari pola pikir sampai cara kerjanya, perbedaanya adalah Penentration Testing ini dilakukan atas persetujuan dan dengan izin dari pemilik sah web target.
+Tujuanya adalah untuk mencari kerentanan yang ada dalam teknologi yang digunakan, lalu memberikan laporan terhadap kerentanan yang ada sehingga pemilik web mampu memberikan penanganan sebelum terjadinya serangan yang nyata." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-csrf/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/web-hacking/" /><meta property="article:section" content="docs" />
 
 
 
-  <meta itemprop="name" content="Memahami CSRF">
-  <meta itemprop="description" content="Apa itu CSRF?Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.
-DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional.">
-  <meta itemprop="wordCount" content="554">
+  <meta itemprop="name" content="Web Penentration Testing">
+  <meta itemprop="description" content="Apa itu Web Penentration TestingWeb Penentration Testing adalah pengujian kerentanan web, dengan cara memposisikan seorang penguji seperti hacker, dari pola pikir sampai cara kerjanya, perbedaanya adalah Penentration Testing ini dilakukan atas persetujuan dan dengan izin dari pemilik sah web target.
+Tujuanya adalah untuk mencari kerentanan yang ada dalam teknologi yang digunakan, lalu memberikan laporan terhadap kerentanan yang ada sehingga pemilik web mampu memberikan penanganan sebelum terjadinya serangan yang nyata.">
+  <meta itemprop="wordCount" content="309">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Memahami CSRF">
-  <meta name="twitter:description" content="Apa itu CSRF?Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.
-DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional.">
+  <meta name="twitter:title" content="Web Penentration Testing">
+  <meta name="twitter:description" content="Apa itu Web Penentration TestingWeb Penentration Testing adalah pengujian kerentanan web, dengan cara memposisikan seorang penguji seperti hacker, dari pola pikir sampai cara kerjanya, perbedaanya adalah Penentration Testing ini dilakukan atas persetujuan dan dengan izin dari pemilik sah web target.
+Tujuanya adalah untuk mencari kerentanan yang ada dalam teknologi yang digunakan, lalu memberikan laporan terhadap kerentanan yang ada sehingga pemilik web mampu memberikan penanganan sebelum terjadinya serangan yang nyata.">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -391,64 +390,13 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
   >Memahami Command Injection
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/memahami-csrf/"
     
   >Memahami CSRF
     </a>
-  
-    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
-              <a
-                href="#apa-itu-csrf"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Apa itu CSRF?</a>
-            </li>
-          <li>
-              <a
-                href="#dampak"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Dampak</a>
-            </li>
-          <li>
-              <a
-                href="#alur-csrf"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Alur CSRF</a>
-            </li>
-          <li>
-              <a
-                href="#alat-untuk-mendeteksi-csrf"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Alat untuk Mendeteksi CSRF</a>
-            </li>
-          <li>
-              <a
-                href="#pencegahan-csrf"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Pencegahan CSRF</a>
-            </li>
-          <li>
-              <a
-                href="#3-kondisi-serangan-csrf"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >3 Kondisi Serangan CSRF</a>
-            </li>
-          <li>
-              <a
-                href="#contoh-praktis"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Contoh Praktis</a>
-            </li>
-          <li>
-              <a
-                href="#demo-di-dvwa"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              >Demo di DVWA</a>
-            </li>
-          </ul>
-  
               
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -490,13 +438,34 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
   >Sejarah Internet Indonesia
     </a>
               
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/hacking/hacking_fundamentals/web-penetration-testing/"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+    href="/docs/hacking/hacking_fundamentals/web-hacking/"
     
   >Web Penentration Testing
     </a>
+  
+    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
+              <a
+                href="#apa-itu-web-penentration-testing"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Apa itu Web Penentration Testing</a>
+            </li>
+          <li>
+              <a
+                href="#fase-web-hacking"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Fase Web Hacking</a>
+            </li>
+          <li>
+              <a
+                href="#tools-web-hacking"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Tools Web Hacking</a>
+            </li>
+          </ul>
+  
               
             </li></ul>
       </div>
@@ -682,9 +651,9 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
   >Memahami Command Injection
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/memahami-csrf/"
     
   >Memahami CSRF
@@ -730,10 +699,10 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
   >Sejarah Internet Indonesia
     </a>
               
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/docs/hacking/hacking_fundamentals/web-penetration-testing/"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+    href="/docs/hacking/hacking_fundamentals/web-hacking/"
     
   >Web Penentration Testing
     </a>
@@ -775,35 +744,43 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#apa-itu-csrf">Apa itu CSRF?
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#apa-itu-web-penentration-testing">Apa itu Web Penentration Testing
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#dampak">Dampak
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#fase-web-hacking">Fase Web Hacking
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#alur-csrf">Alur CSRF
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#tools-web-hacking">Tools Web Hacking
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#alat-untuk-mendeteksi-csrf">Alat untuk Mendeteksi CSRF
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#google-dorking">Google Dorking
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#pencegahan-csrf">Pencegahan CSRF
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#robtext">Robtext
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#3-kondisi-serangan-csrf">3 Kondisi Serangan CSRF
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#knockpy">Knockpy
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#contoh-praktis">Contoh Praktis
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#dirb">Dirb
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#demo-di-dvwa">Demo di DVWA
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#nikto">Nikto
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#maltego">Maltego
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#burpsuite">Burpsuite
         </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
@@ -830,220 +807,78 @@ DampakDampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban ad
         </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
           <a href="/docs/hacking/hacking_fundamentals/">Hacking Fundamental</a>
-        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">Memahami CSRF</div>
+        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">Web Penentration Testing</div>
   </div>
 
         <div class="content">
-          <h1>Memahami CSRF</h1>
-          <h2>Apa itu CSRF?<span class="hx-absolute -hx-mt-20" id="apa-itu-csrf"></span>
-    <a href="#apa-itu-csrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Cross Site Request Forgery (CSRF) adalah kerentanan yang memungkinkan hacker untuk membujuk target melakukan tindakan yang tidak diinginkan, sering kali dilakukan melalui metode phishing. CSRF mengeksploitasi kepercayaan yang diberikan oleh sebuah aplikasi kepada browser pengguna.</p>
-<h2>Dampak<span class="hx-absolute -hx-mt-20" id="dampak"></span>
-    <a href="#dampak" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Dampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional.</p>
-<h2>Alur CSRF<span class="hx-absolute -hx-mt-20" id="alur-csrf"></span>
-    <a href="#alur-csrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><img src="/images/csrf.svg" alt="csrf" loading="lazy" /></p>
-<ul>
-<li>Ilustrasi di atas menunjukkan bagaimana hacker mengirim link phishing yang memuat permintaan untuk mengubah informasi akun korban.</li>
-<li>Cara kerja CSRF:
-<ol>
-<li>Hacker membuat permintaan palsu (misalnya mengubah password akun).</li>
-<li>Hacker mengirimkan permintaan ini melalui link yang terlihat sah kepada korban.</li>
-<li>Ketika korban mengklik link tersebut, browser mereka otomatis mengirimkan permintaan beserta sesi cookie aktif, tanpa disadari oleh korban.</li>
+          <h1>Web Penentration Testing</h1>
+          <h2>Apa itu Web Penentration Testing<span class="hx-absolute -hx-mt-20" id="apa-itu-web-penentration-testing"></span>
+    <a href="#apa-itu-web-penentration-testing" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Web Penentration Testing adalah pengujian kerentanan web, dengan cara memposisikan seorang penguji seperti hacker, dari pola pikir sampai cara kerjanya, perbedaanya adalah Penentration Testing ini dilakukan atas persetujuan dan dengan izin dari pemilik sah web target.</p>
+<p>Tujuanya adalah untuk mencari kerentanan yang ada dalam teknologi yang digunakan, lalu memberikan laporan terhadap kerentanan yang ada sehingga pemilik web mampu memberikan penanganan sebelum terjadinya serangan yang nyata.</p>
+<h2>Fase Web Hacking<span class="hx-absolute -hx-mt-20" id="fase-web-hacking"></span>
+    <a href="#fase-web-hacking" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
+<li>Reconnaisance -&gt; Mengumpulkan informasi</li>
+<li>Scanning &ndash;&gt; Menganalisa web security</li>
+<li>Exploitation &ndash;&gt; Eksploitasi vulnerability</li>
+<li>Covering Track &ndash;&gt; Modifikasi Log Value, menghapus jejak</li>
 </ol>
-</li>
-<li>Contoh: Hacker mengirim permintaan perubahan password, sehingga korban percaya dan tanpa sengaja mengubah password sesuai keinginan hacker.</li>
+<h2>Tools Web Hacking<span class="hx-absolute -hx-mt-20" id="tools-web-hacking"></span>
+    <a href="#tools-web-hacking" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>Google Dorking<span class="hx-absolute -hx-mt-20" id="google-dorking"></span>
+    <a href="#google-dorking" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Teknik menggunakan layanan Advance Google Search untuk mencari informasi terkait target.</li>
+<li>Mencari konten yang susah dicari dengan pencarian biasa</li>
 </ul>
-<h2>Alat untuk Mendeteksi CSRF<span class="hx-absolute -hx-mt-20" id="alat-untuk-mendeteksi-csrf"></span>
-    <a href="#alat-untuk-mendeteksi-csrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><strong>Burp Suite</strong>: Membantu menganalisis dan memanipulasi request.</li>
-<li><strong>IBM AppScan</strong>: Alat komersial untuk mengidentifikasi berbagai kerentanan termasuk CSRF.</li>
-<li><strong>OWASP ZAP (Zed Attack Proxy)</strong>: Alat gratis yang dikembangkan oleh OWASP untuk pengujian keamanan aplikasi web.</li>
+<h3>Robtext<span class="hx-absolute -hx-mt-20" id="robtext"></span>
+    <a href="#robtext" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Comprehensive DNS Information</li>
+<li>Melakukan information gathering</li>
+<li>Mencari IP Address, atau jumlah IP yang digunakan pada sebuah website, karena website bisa menggunakan lebih dari satu IP Address</li>
+<li>Mencari Domain Names, Hostname, Routes, dll</li>
 </ul>
-<h2>Pencegahan CSRF<span class="hx-absolute -hx-mt-20" id="pencegahan-csrf"></span>
-    <a href="#pencegahan-csrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
-<li><strong>Validasi Request</strong>:
+<h3>Knockpy<span class="hx-absolute -hx-mt-20" id="knockpy"></span>
+    <a href="#knockpy" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Subdomain Enumerator</li>
+<li>Melakukan information gathering</li>
+<li>Mencari sub domain dari target</li>
+<li>Dengan menggunakan wordlist, untuk melakukan bruteforce</li>
+</ul>
+<h3>Dirb<span class="hx-absolute -hx-mt-20" id="dirb"></span>
+    <a href="#dirb" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Web content Scanner</li>
+<li>Mencari direktori tersembunyi maupun tidak tersembunyi</li>
+<li>Dicitonary based attack</li>
+</ul>
+<h3>Nikto<span class="hx-absolute -hx-mt-20" id="nikto"></span>
+    <a href="#nikto" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Web vulnerability scanner</li>
+<li>Gratis dan opensource</li>
+<li>Cara kerja dengan scanning web, mencari file berbahaya, software outdated, informasi terkait software, mencari subdomain</li>
+</ul>
+<h3>Maltego<span class="hx-absolute -hx-mt-20" id="maltego"></span>
+    <a href="#maltego" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Graphical Link Analysis</li>
+<li>Memproses realtime data mining</li>
+<li>Melihat social relationship</li>
+<li>Menentukan Infrastruktur dari sebuah internet, domain, dns, ip Address, dll</li>
+<li>Biasanya digunakan juga oleh para jurnalis, untuk melakukan OSINT(Open Source Inteligence)</li>
+</ul>
+<h3>Burpsuite<span class="hx-absolute -hx-mt-20" id="burpsuite"></span>
+    <a href="#burpsuite" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>Web App Pentest</li>
+<li>Bug Bounty</li>
+<li>Fitur:
 <ul>
-<li>Memastikan setiap permintaan yang dikirim berasal dari pengguna yang sah.</li>
+<li><strong>Spyder</strong>: Web crawler untuk melakukan pemetaan aplikasi web.</li>
+<li><strong>Proxy</strong>: Interceptor untuk memodifikasi request dan response.</li>
+<li><strong>Intruder</strong>: Automasi serangan yang dikustomisasi terhadap aplikasi web.</li>
+<li><strong>Repeater</strong>: Mengirim request berulang kali.</li>
+<li><strong>Sequencer</strong>: Mengecek entropi untuk memeriksa keamanan token acak yang dihasilkan oleh server.</li>
+<li><strong>Decoder</strong>: Melakukan encoding dan decoding pada parameter atau header data.</li>
+<li><strong>Extender</strong>: Menambahkan ekstensi eksternal untuk meningkatkan kinerja Burpsuite.</li>
+<li><strong>Scanner</strong>: Memindai kerentanan web (hanya tersedia di versi berbayar).</li>
 </ul>
 </li>
-<li><strong>CSRF Token</strong>:
-<ul>
-<li>Menyisipkan token unik di setiap permintaan.</li>
-<li>Token ini harus divalidasi oleh server untuk memverifikasi permintaan.</li>
 </ul>
-</li>
-<li><strong>Referer Header</strong>:
-<ul>
-<li>Memastikan bahwa permintaan berasal dari halaman yang sah.</li>
-</ul>
-</li>
-<li><strong>Sesi yang Aman</strong>:
-<ul>
-<li>Gunakan sesi cookie dengan atribut <code>SameSite</code> untuk membatasi akses lintas situs.</li>
-</ul>
-</li>
-<li><strong>Batasi HTTP Methods</strong>:
-<ul>
-<li>Gunakan metode POST untuk permintaan yang sensitif.</li>
-</ul>
-</li>
-</ol>
-<h2>3 Kondisi Serangan CSRF<span class="hx-absolute -hx-mt-20" id="3-kondisi-serangan-csrf"></span>
-    <a href="#3-kondisi-serangan-csrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
-<li><strong>A Relevant Action</strong>:
-<ul>
-<li>Serangan CSRF biasanya ditargetkan pada aksi yang istimewa atau sensitif, seperti mengubah data pengguna atau melakukan transaksi.</li>
-</ul>
-</li>
-<li><strong>Cookie-based Session Handling</strong>:
-<ul>
-<li>Sistem hanya memvalidasi sesi cookie, sehingga hacker dapat memanfaatkannya untuk mengirim permintaan palsu.</li>
-</ul>
-</li>
-<li><strong>No Unpredictable Request Parameter</strong>:
-<ul>
-<li>Permintaan dengan parameter yang mudah ditebak oleh hacker, seperti <code>password_new=smithy</code> atau <code>email=newuser@domain.com</code>.</li>
-</ul>
-</li>
-</ol>
-<h2>Contoh Praktis<span class="hx-absolute -hx-mt-20" id="contoh-praktis"></span>
-    <a href="#contoh-praktis" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Misalkan sebuah aplikasi memungkinkan pengguna mengubah alamat email mereka. Permintaan HTTP-nya seperti ini:</p>
-<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-  
-
-<pre><code>POST /email/change HTTP/1.1
-Host: vulnerable-website.com
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 30
-Cookie: session=yvthwsztyeQkAPzeQ5gHgTv1yxHfsAfE
-email=wiener@normal-user.com</code></pre><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-  <button
-    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-    title="Copy code"
-  >
-    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
-    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
-  </button>
-</div>
-
-  
-</div>
-<p>Permintaan di atas memenuhi 3 kondisi serangan CSRF. Hacker dapat membuat halaman web dengan kode HTML berikut:</p>
-<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-  
-
-<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://vulnerable-website.com/email/change?email=attacker@malicious.com&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display:none;&#34;</span>
-</span></span><span style="display:flex;"><span>/&gt;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-  <button
-    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-    title="Copy code"
-  >
-    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
-    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
-  </button>
-</div>
-
-  
-</div>
-<p>Jika korban membuka halaman ini saat sedang login, browser mereka akan secara otomatis menyertakan cookie sesi aktif dalam permintaan, dan alamat email mereka akan diubah tanpa izin.</p>
-<h2>Demo di DVWA<span class="hx-absolute -hx-mt-20" id="demo-di-dvwa"></span>
-    <a href="#demo-di-dvwa" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
-<li>
-<p><strong>Setup Awal</strong>:</p>
-<ul>
-<li>Buka DVWA di dua jendela browser: satu di mode biasa dan satu di mode private.</li>
-<li>Login sebagai <strong>admin</strong> di jendela private.</li>
-<li>Login sebagai <strong>smithy</strong> (akun hacker) di jendela biasa.</li>
-</ul>
-</li>
-<li>
-<p><strong>Tujuan</strong>:</p>
-<ul>
-<li>Mengubah password admin menggunakan akun smithy.</li>
-</ul>
-</li>
-<li>
-<p><strong>Langkah-Langkah</strong>:</p>
-<ul>
-<li>Login sebagai smithy dan buka menu &ldquo;CSRF&rdquo;.</li>
-<li>Masukkan username dan password untuk smithy, lalu klik &ldquo;Change&rdquo; untuk melihat bahwa password dapat diubah menggunakan parameter GET.</li>
-</ul>
-<p><img src="/images/csrfchange.png" alt="csrfchange" loading="lazy" />
-<img src="/images/csrfget.png" alt="csrfget" loading="lazy" /></p>
-</li>
-<li>
-<p><strong>Membuat Exploit</strong>:</p>
-<ul>
-<li>Buat file HTML dengan konten berikut:
-<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-  
-
-<div class="filename" dir="auto">index.html</div><div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt;You won 1000 bitcoins!&lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://localhost:4280/vulnerabilities/csrf/?password_new=smithy&amp;password_conf=smithy&amp;change=Change&#34;</span>
-</span></span><span style="display:flex;"><span>  &gt;Click here to claim your reward!&lt;/<span style="color:#f92672">a</span>
-</span></span><span style="display:flex;"><span>&gt;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
-  <button
-    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-    title="Copy code"
-  >
-    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
-    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
-  </button>
-</div>
-
-  
-</div>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Menjalankan Server Lokal</strong>:</p>
-<ul>
-<li>Simpan file HTML tersebut dan jalankan server lokal:
-<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-  
-
-<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m http.server <span style="color:#ae81ff">8000</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
-  <button
-    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-    title="Copy code"
-  >
-    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
-    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
-  </button>
-</div>
-
-  
-</div>
-</li>
-<li>Periksa alamat IP lokal dengan <code>ifconfig</code> atau <code>ipconfig</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Serangan</strong>:</p>
-<ul>
-<li>Buka file HTML di browser admin (korban) menggunakan IP lokal, misalnya: <code>http://192.168.8.120:8000/index.html</code>.
-<img src="/images/phising.png" alt="phising" loading="lazy" /></li>
-<li>Klik link di halaman tersebut. Password admin akan otomatis berubah menjadi &ldquo;smithy&rdquo;.
-<img src="/images/success.png" alt="success" loading="lazy" /></li>
-</ul>
-</li>
-<li>
-<p><strong>Validasi</strong>:</p>
-<ul>
-<li>Login kembali sebagai admin menggunakan password baru (&ldquo;smithy&rdquo;) di browser hacker.</li>
-<li>Admin tidak dapat login dengan password lama.</li>
-</ul>
-</li>
-<li>
-<p><strong>Pencegahan</strong>:</p>
-<ul>
-<li>Gunakan CSRF token untuk memvalidasi setiap permintaan.</li>
-</ul>
-</li>
-</ol>
 
         </div>
         <div class="hx-mt-16"></div>
@@ -1051,11 +886,7 @@ email=wiener@normal-user.com</code></pre><div class="hextra-code-copy-btn-contai
         href="/docs/hacking/hacking_fundamentals/"
         title="Hacking Fundamental"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-pr-4 rtl:hx-pl-4"
-      ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Hacking Fundamental</a><a
-        href="/docs/hacking/hacking_fundamentals/memahami-file-inclusion/"
-        title="Memahami File Inclusion"
-        class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-ml-auto ltr:hx-pl-4 ltr:hx-text-right rtl:hx-mr-auto rtl:hx-pr-4 rtl:hx-text-left"
-      >Memahami File Inclusion<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Hacking Fundamental</a></div>
         
       </main>
     </article>

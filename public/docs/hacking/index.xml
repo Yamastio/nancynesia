@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Hacking</title>
-    <link>https://nancynesia.com/docs/hacking/</link>
+    <link>http://localhost:1313/docs/hacking/</link>
     <description>Recent content in Hacking on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="https://nancynesia.com/docs/hacking/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/hacking/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Hacking Fundamental</title>
-      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/</link>
+      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/</guid>
+      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/</guid>
       <description>
         
         
@@ -62,6 +62,9 @@
 &lt;a
   class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;./memahami-csrf/&#34;
     &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;Memahami CSRF&lt;/span&gt;&lt;/a&gt;
+&lt;a
+  class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;./web-penetration-testing/&#34;
+    &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;Web Penetration Testing&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 

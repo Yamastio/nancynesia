@@ -2,111 +2,113 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nancynesia.com/docs/coding/</loc>
+    <loc>http://localhost:1313/docs/coding/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/</loc>
+    <loc>http://localhost:1313/docs/hacking/</loc>
   </url><url>
-    <loc>https://nancynesia.com/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/blog/fix-syntax-highlighting-terminal-kali-linux/</loc>
+    <loc>http://localhost:1313/blog/fix-syntax-highlighting-terminal-kali-linux/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/shell/</loc>
+    <loc>http://localhost:1313/tags/shell/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/terminal/</loc>
+    <loc>http://localhost:1313/tags/terminal/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/zsh/</loc>
+    <loc>http://localhost:1313/tags/zsh/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/hacking_fundamentals/</loc>
+    <loc>http://localhost:1313/tags/hacking_fundamentals/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/blog/mengapa-kita-perlu-melakukan-penetration-testing/</loc>
+    <loc>http://localhost:1313/blog/mengapa-kita-perlu-melakukan-penetration-testing/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/blog/top-hacking-books-for-2024/</loc>
+    <loc>http://localhost:1313/blog/top-hacking-books-for-2024/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</loc>
+    <loc>http://localhost:1313/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/example/</loc>
+    <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/guide/</loc>
+    <loc>http://localhost:1313/tags/guide/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/blog/markdown/</loc>
+    <loc>http://localhost:1313/blog/markdown/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/android_projects/</loc>
+    <loc>http://localhost:1313/docs/coding/android_projects/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/android_studio_jetpack_compose/</loc>
+    <loc>http://localhost:1313/docs/coding/android_studio_jetpack_compose/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/coding_tools/</loc>
+    <loc>http://localhost:1313/docs/coding/coding_tools/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/computational/</loc>
+    <loc>http://localhost:1313/docs/coding/computational/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/devops_fundamentals/</loc>
+    <loc>http://localhost:1313/docs/coding/devops_fundamentals/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/java_oop/</loc>
+    <loc>http://localhost:1313/docs/coding/java_oop/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/mysql/</loc>
+    <loc>http://localhost:1313/docs/coding/mysql/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/php_oop/</loc>
+    <loc>http://localhost:1313/docs/coding/php_oop/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/lifehack/</loc>
+    <loc>http://localhost:1313/docs/lifehack/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/lifestyle/</loc>
+    <loc>http://localhost:1313/docs/lifestyle/</loc>
   </url><url>
-    <loc>https://nancynesia.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://nancynesia.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/fase-penetration-testing/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/fase-penetration-testing/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/</loc>
   </url><url>
-    <loc>https://nancynesia.com/blog/instalasi-lab-dvwa/</loc>
+    <loc>http://localhost:1313/blog/instalasi-lab-dvwa/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-command-injection/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-csrf/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-csrf/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/metodologi-pentesting/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/python_fundamentals/</loc>
+    <loc>http://localhost:1313/docs/coding/python_fundamentals/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/coding/python_fundamentals/python_hello_world/</loc>
+    <loc>http://localhost:1313/docs/coding/python_fundamentals/python_hello_world/</loc>
   </url><url>
-    <loc>https://nancynesia.com/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</loc>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/hacking/hacking_fundamentals/web-penetration-testing/</loc>
   </url>
 </urlset>
