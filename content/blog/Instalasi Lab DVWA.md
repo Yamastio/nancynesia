@@ -1,6 +1,12 @@
 ---
-title: Instalasi Lab DVWA
-prev: /docs/hacking/hacking_fundamentals/
+title: Instalasti Lab DVWA
+date: 2024-12-13
+authors:
+  - name: Yamastio
+    link: https://github.com/yamastio
+    image: https://github.com/yamastio.png
+tags:
+  - hacking_fundamentals
 ---
 
 ## Apa itu DVWA?
