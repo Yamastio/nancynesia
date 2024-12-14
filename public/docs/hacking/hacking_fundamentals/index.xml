@@ -1037,6 +1037,157 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     </item>
     
     <item>
+      <title>OWASP TOP 10 2021</title>
+      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Apa itu OWASP Top 10 Vulnerabilities&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;apa-itu-owasp-top-10-vulnerabilities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#apa-itu-owasp-top-10-vulnerabilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;OWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;A01: Broken Access Control&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a01-broken-access-control&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a01-broken-access-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Kasus:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC).&lt;/li&gt;
+&lt;li&gt;Uji kontrol akses menggunakan alat penetration testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A02: Cryptographic Failures&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a02-cryptographic-failures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a02-cryptographic-failures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan algoritma enkripsi yang aman (seperti AES, RSA).&lt;/li&gt;
+&lt;li&gt;Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A03: Injection&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a03-injection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a03-injection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenis Injection:&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Command Injection:&lt;/strong&gt; Hacker menyisipkan perintah sistem operasi melalui input aplikasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQL Injection:&lt;/strong&gt; Hacker menyisipkan query SQL untuk mengakses data sensitif.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tool:&lt;/strong&gt; SQLMap.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;XSS (Cross-Site Scripting):&lt;/strong&gt; Hacker menyisipkan script berbahaya untuk mengendalikan browser user.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Data dapat diakses, dimodifikasi, atau dihancurkan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan prepared statements untuk query database.&lt;/li&gt;
+&lt;li&gt;Sanitasi input dari user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A04: Insecure Design&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a04-insecure-design&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a04-insecure-design&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt; Fitur &amp;ldquo;password recovery&amp;rdquo; yang tidak aman.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A05: Security Misconfiguration&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a05-security-misconfiguration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a05-security-misconfiguration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kesalahan dalam konfigurasi sistem atau aplikasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Penggunaan akun default tanpa perubahan kredensial.&lt;/li&gt;
+&lt;li&gt;Direktori atau file yang tidak dilindungi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Audit konfigurasi sistem secara rutin.&lt;/li&gt;
+&lt;li&gt;Nonaktifkan fitur yang tidak digunakan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A06: Vulnerable and Outdated Components&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a06-vulnerable-and-outdated-components&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a06-vulnerable-and-outdated-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Menggunakan software, library, atau framework yang sudah usang dan rentan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Selalu perbarui komponen aplikasi.&lt;/li&gt;
+&lt;li&gt;Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A07: Identification and Authentication Failures&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a07-identification-and-authentication-failures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a07-identification-and-authentication-failures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt; Sistem rentan terhadap serangan bruteforce.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker bisa mendapatkan akses ke akun pengguna.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Terapkan multi-factor authentication (MFA).&lt;/li&gt;
+&lt;li&gt;Gunakan bcrypt untuk hashing password.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A08: Software and Data Integrity Failures&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a08-software-and-data-integrity-failures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a08-software-and-data-integrity-failures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt; Menggunakan library pihak ketiga yang berisi malware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Data aplikasi atau pengguna dapat dirusak atau disusupi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Verifikasi sumber library atau plugin.&lt;/li&gt;
+&lt;li&gt;Gunakan signature-based verification untuk integritas software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A09: Security Logging and Monitoring Failures&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a09-security-logging-and-monitoring-failures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a09-security-logging-and-monitoring-failures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Kegagalan dalam mencatat dan memonitor aktivitas keamanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt; Tidak mencatat login attempt yang gagal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan alat monitoring seperti Splunk atau ELK Stack.&lt;/li&gt;
+&lt;li&gt;Konfigurasi logging untuk mencatat semua aktivitas yang relevan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;A10: Server-Side Request Forgery (SSRF)&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a10-server-side-request-forgery-ssrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a10-server-side-request-forgery-ssrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh:&lt;/strong&gt; Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dampak:&lt;/strong&gt; Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Validasi input URL dengan whitelist.&lt;/li&gt;
+&lt;li&gt;Nonaktifkan permintaan ke jaringan internal dari server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Peran dan Tanggung Jawab Ethical Hacker</title>
       <link>http://localhost:1313/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

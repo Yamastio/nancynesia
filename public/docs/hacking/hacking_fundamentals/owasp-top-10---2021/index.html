@@ -10,109 +10,162 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux) – Nancynesia</title>
-  <meta name="description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab." /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" itemprop="url" />
+<title>OWASP TOP 10 2021 – Nancynesia</title>
+  <meta name="description" content="Apa itu OWASP Top 10 VulnerabilitiesOWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.
+A01: Broken Access ControlDefinisi: Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah. Contoh Kasus: Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah. Dampak: Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu. Pencegahan: Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC). Uji kontrol akses menggunakan alat penetration testing. A02: Cryptographic FailuresDefinisi: Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi. Dampak: Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos. Pencegahan: Gunakan algoritma enkripsi yang aman (seperti AES, RSA). Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS). A03: InjectionDefinisi: Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya. Jenis Injection: Command Injection: Hacker menyisipkan perintah sistem operasi melalui input aplikasi. SQL Injection: Hacker menyisipkan query SQL untuk mengakses data sensitif. Tool: SQLMap. XSS (Cross-Site Scripting): Hacker menyisipkan script berbahaya untuk mengendalikan browser user. Dampak: Data dapat diakses, dimodifikasi, atau dihancurkan. Pencegahan: Gunakan prepared statements untuk query database. Sanitasi input dari user. A04: Insecure DesignDefinisi: Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan. Contoh: Fitur “password recovery” yang tidak aman. Dampak: Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah. Pencegahan: Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design). A05: Security MisconfigurationDefinisi: Kesalahan dalam konfigurasi sistem atau aplikasi. Contoh: Penggunaan akun default tanpa perubahan kredensial. Direktori atau file yang tidak dilindungi. Dampak: Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi. Pencegahan: Audit konfigurasi sistem secara rutin. Nonaktifkan fitur yang tidak digunakan. A06: Vulnerable and Outdated ComponentsDefinisi: Menggunakan software, library, atau framework yang sudah usang dan rentan. Dampak: Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama. Pencegahan: Selalu perbarui komponen aplikasi. Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan. A07: Identification and Authentication FailuresDefinisi: Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi. Contoh: Sistem rentan terhadap serangan bruteforce. Dampak: Hacker bisa mendapatkan akses ke akun pengguna. Pencegahan: Terapkan multi-factor authentication (MFA). Gunakan bcrypt untuk hashing password. A08: Software and Data Integrity FailuresDefinisi: Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya. Contoh: Menggunakan library pihak ketiga yang berisi malware. Dampak: Data aplikasi atau pengguna dapat dirusak atau disusupi. Pencegahan: Verifikasi sumber library atau plugin. Gunakan signature-based verification untuk integritas software. A09: Security Logging and Monitoring FailuresDefinisi: Kegagalan dalam mencatat dan memonitor aktivitas keamanan. Contoh: Tidak mencatat login attempt yang gagal. Dampak: Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti. Pencegahan: Gunakan alat monitoring seperti Splunk atau ELK Stack. Konfigurasi logging untuk mencatat semua aktivitas yang relevan. A10: Server-Side Request Forgery (SSRF)Definisi: Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses. Contoh: Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata). Dampak: Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem. Pencegahan: Validasi input URL dengan whitelist. Nonaktifkan permintaan ke jaringan internal dari server. " /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/" itemprop="url" />
 
-<meta property="og:title" content="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)" />
-<meta property="og:description" content="1. Hardware
+<meta property="og:title" content="OWASP TOP 10 2021" />
+<meta property="og:description" content="Apa itu OWASP Top 10 Vulnerabilities
+    OWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.
+A01: Broken Access Control
     
-Komputer:
+Definisi: Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah.
+Contoh Kasus:
 
-Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal.
-Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux.
-
-
-Jaringan:
-
-Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud.
+Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah.
 
 
+Dampak: Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu.
+Pencegahan:
 
-2. Software
+Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC).
+Uji kontrol akses menggunakan alat penetration testing.
+
+
+
+A02: Cryptographic Failures
     
-Distribusi Linux Khusus Hacking:
+Definisi: Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi.
+Dampak: Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos.
+Pencegahan:
 
-Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi.
-Parrot OS: Fokus pada keamanan dan privasi.
-BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool.
-
-
-Virtual Machine (VM):
-
-VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama.
-Manfaat:
-
-Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi.
-Isolasi lingkungan: Menghindari kontaminasi sistem utama.
-Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah.
+Gunakan algoritma enkripsi yang aman (seperti AES, RSA).
+Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS).
 
 
 
-
-Tool Ethical Hacking:
-
-Nmap: Untuk pemindaian port dan deteksi layanan.
-Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan.
-Burp Suite: Proxy web untuk hacking aplikasi web.
-Wireshark: Menganalisis lalu lintas jaringan.
-Aircrack-ng: Untuk cracking Wi-Fi.
-John the Ripper: Untuk cracking password.
-Hydra: Untuk serangan brute force.
-SQLmap: Untuk injeksi SQL.
-
-
-
-3. Work Environment
+A03: Injection
     
-Virtual Lab:
+Definisi: Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya.
+Jenis Injection:
 
-Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking.
-Manfaat:
+Command Injection: Hacker menyisipkan perintah sistem operasi melalui input aplikasi.
+SQL Injection: Hacker menyisipkan query SQL untuk mengakses data sensitif.
 
-Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan.
-Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda.
-
-
+Tool: SQLMap.
 
 
-Physical Lab:
+XSS (Cross-Site Scripting): Hacker menyisipkan script berbahaya untuk mengendalikan browser user.
 
-Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks.
-Manfaat:
 
-Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata.
-Eksperimen bebas: Melakukan eksperimen yang lebih kompleks.
+Dampak: Data dapat diakses, dimodifikasi, atau dihancurkan.
+Pencegahan:
 
+Gunakan prepared statements untuk query database.
+Sanitasi input dari user.
 
 
 
-
-4. Contoh Praktik
+A04: Insecure Design
     
-Skenario: Ingin menguji kerentanan aplikasi web.
-Langkah:
+Definisi: Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan.
+Contoh: Fitur &ldquo;password recovery&rdquo; yang tidak aman.
+Dampak: Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah.
+Pencegahan:
 
-Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target.
-Install aplikasi web: Pasang aplikasi pada VM.
-Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi.
-Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF.
-Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya.
+Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design).
 
 
 
-Kesimpulan
-    Dengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab." />
+A05: Security Misconfiguration
+    
+Definisi: Kesalahan dalam konfigurasi sistem atau aplikasi.
+Contoh:
+
+Penggunaan akun default tanpa perubahan kredensial.
+Direktori atau file yang tidak dilindungi.
+
+
+Dampak: Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi.
+Pencegahan:
+
+Audit konfigurasi sistem secara rutin.
+Nonaktifkan fitur yang tidak digunakan.
+
+
+
+A06: Vulnerable and Outdated Components
+    
+Definisi: Menggunakan software, library, atau framework yang sudah usang dan rentan.
+Dampak: Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama.
+Pencegahan:
+
+Selalu perbarui komponen aplikasi.
+Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan.
+
+
+
+A07: Identification and Authentication Failures
+    
+Definisi: Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi.
+Contoh: Sistem rentan terhadap serangan bruteforce.
+Dampak: Hacker bisa mendapatkan akses ke akun pengguna.
+Pencegahan:
+
+Terapkan multi-factor authentication (MFA).
+Gunakan bcrypt untuk hashing password.
+
+
+
+A08: Software and Data Integrity Failures
+    
+Definisi: Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya.
+Contoh: Menggunakan library pihak ketiga yang berisi malware.
+Dampak: Data aplikasi atau pengguna dapat dirusak atau disusupi.
+Pencegahan:
+
+Verifikasi sumber library atau plugin.
+Gunakan signature-based verification untuk integritas software.
+
+
+
+A09: Security Logging and Monitoring Failures
+    
+Definisi: Kegagalan dalam mencatat dan memonitor aktivitas keamanan.
+Contoh: Tidak mencatat login attempt yang gagal.
+Dampak: Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti.
+Pencegahan:
+
+Gunakan alat monitoring seperti Splunk atau ELK Stack.
+Konfigurasi logging untuk mencatat semua aktivitas yang relevan.
+
+
+
+A10: Server-Side Request Forgery (SSRF)
+    
+Definisi: Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses.
+Contoh: Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata).
+Dampak: Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem.
+Pencegahan:
+
+Validasi input URL dengan whitelist.
+Nonaktifkan permintaan ke jaringan internal dari server.
+
+
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/" /><meta property="article:section" content="docs" />
 
 
 
-  <meta itemprop="name" content="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)">
-  <meta itemprop="description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab.">
-  <meta itemprop="wordCount" content="358">
+  <meta itemprop="name" content="OWASP TOP 10 2021">
+  <meta itemprop="description" content="Apa itu OWASP Top 10 VulnerabilitiesOWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.
+A01: Broken Access ControlDefinisi: Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah. Contoh Kasus: Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah. Dampak: Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu. Pencegahan: Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC). Uji kontrol akses menggunakan alat penetration testing. A02: Cryptographic FailuresDefinisi: Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi. Dampak: Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos. Pencegahan: Gunakan algoritma enkripsi yang aman (seperti AES, RSA). Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS). A03: InjectionDefinisi: Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya. Jenis Injection: Command Injection: Hacker menyisipkan perintah sistem operasi melalui input aplikasi. SQL Injection: Hacker menyisipkan query SQL untuk mengakses data sensitif. Tool: SQLMap. XSS (Cross-Site Scripting): Hacker menyisipkan script berbahaya untuk mengendalikan browser user. Dampak: Data dapat diakses, dimodifikasi, atau dihancurkan. Pencegahan: Gunakan prepared statements untuk query database. Sanitasi input dari user. A04: Insecure DesignDefinisi: Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan. Contoh: Fitur “password recovery” yang tidak aman. Dampak: Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah. Pencegahan: Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design). A05: Security MisconfigurationDefinisi: Kesalahan dalam konfigurasi sistem atau aplikasi. Contoh: Penggunaan akun default tanpa perubahan kredensial. Direktori atau file yang tidak dilindungi. Dampak: Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi. Pencegahan: Audit konfigurasi sistem secara rutin. Nonaktifkan fitur yang tidak digunakan. A06: Vulnerable and Outdated ComponentsDefinisi: Menggunakan software, library, atau framework yang sudah usang dan rentan. Dampak: Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama. Pencegahan: Selalu perbarui komponen aplikasi. Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan. A07: Identification and Authentication FailuresDefinisi: Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi. Contoh: Sistem rentan terhadap serangan bruteforce. Dampak: Hacker bisa mendapatkan akses ke akun pengguna. Pencegahan: Terapkan multi-factor authentication (MFA). Gunakan bcrypt untuk hashing password. A08: Software and Data Integrity FailuresDefinisi: Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya. Contoh: Menggunakan library pihak ketiga yang berisi malware. Dampak: Data aplikasi atau pengguna dapat dirusak atau disusupi. Pencegahan: Verifikasi sumber library atau plugin. Gunakan signature-based verification untuk integritas software. A09: Security Logging and Monitoring FailuresDefinisi: Kegagalan dalam mencatat dan memonitor aktivitas keamanan. Contoh: Tidak mencatat login attempt yang gagal. Dampak: Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti. Pencegahan: Gunakan alat monitoring seperti Splunk atau ELK Stack. Konfigurasi logging untuk mencatat semua aktivitas yang relevan. A10: Server-Side Request Forgery (SSRF)Definisi: Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses. Contoh: Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata). Dampak: Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem. Pencegahan: Validasi input URL dengan whitelist. Nonaktifkan permintaan ke jaringan internal dari server.">
+  <meta itemprop="wordCount" content="534">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)">
-  <meta name="twitter:description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab.">
+  <meta name="twitter:title" content="OWASP TOP 10 2021">
+  <meta name="twitter:description" content="Apa itu OWASP Top 10 VulnerabilitiesOWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.
+A01: Broken Access ControlDefinisi: Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah. Contoh Kasus: Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah. Dampak: Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu. Pencegahan: Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC). Uji kontrol akses menggunakan alat penetration testing. A02: Cryptographic FailuresDefinisi: Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi. Dampak: Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos. Pencegahan: Gunakan algoritma enkripsi yang aman (seperti AES, RSA). Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS). A03: InjectionDefinisi: Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya. Jenis Injection: Command Injection: Hacker menyisipkan perintah sistem operasi melalui input aplikasi. SQL Injection: Hacker menyisipkan query SQL untuk mengakses data sensitif. Tool: SQLMap. XSS (Cross-Site Scripting): Hacker menyisipkan script berbahaya untuk mengendalikan browser user. Dampak: Data dapat diakses, dimodifikasi, atau dihancurkan. Pencegahan: Gunakan prepared statements untuk query database. Sanitasi input dari user. A04: Insecure DesignDefinisi: Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan. Contoh: Fitur “password recovery” yang tidak aman. Dampak: Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah. Pencegahan: Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design). A05: Security MisconfigurationDefinisi: Kesalahan dalam konfigurasi sistem atau aplikasi. Contoh: Penggunaan akun default tanpa perubahan kredensial. Direktori atau file yang tidak dilindungi. Dampak: Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi. Pencegahan: Audit konfigurasi sistem secara rutin. Nonaktifkan fitur yang tidak digunakan. A06: Vulnerable and Outdated ComponentsDefinisi: Menggunakan software, library, atau framework yang sudah usang dan rentan. Dampak: Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama. Pencegahan: Selalu perbarui komponen aplikasi. Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan. A07: Identification and Authentication FailuresDefinisi: Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi. Contoh: Sistem rentan terhadap serangan bruteforce. Dampak: Hacker bisa mendapatkan akses ke akun pengguna. Pencegahan: Terapkan multi-factor authentication (MFA). Gunakan bcrypt untuk hashing password. A08: Software and Data Integrity FailuresDefinisi: Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya. Contoh: Menggunakan library pihak ketiga yang berisi malware. Dampak: Data aplikasi atau pengguna dapat dirusak atau disusupi. Pencegahan: Verifikasi sumber library atau plugin. Gunakan signature-based verification untuk integritas software. A09: Security Logging and Monitoring FailuresDefinisi: Kegagalan dalam mencatat dan memonitor aktivitas keamanan. Contoh: Tidak mencatat login attempt yang gagal. Dampak: Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti. Pencegahan: Gunakan alat monitoring seperti Splunk atau ELK Stack. Konfigurasi logging untuk mencatat semua aktivitas yang relevan. A10: Server-Side Request Forgery (SSRF)Definisi: Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses. Contoh: Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata). Dampak: Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem. Pencegahan: Validasi input URL dengan whitelist. Nonaktifkan permintaan ke jaringan internal dari server.">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -496,13 +549,22 @@ Kesimpulan
   >Metodologi Penetesting
     </a>
               
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
     href="/docs/hacking/hacking_fundamentals/owasp-top-10---2021/"
     
   >OWASP TOP 10 2021
     </a>
+  
+    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
+              <a
+                href="#apa-itu-owasp-top-10-vulnerabilities"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Apa itu OWASP Top 10 Vulnerabilities</a>
+            </li>
+          </ul>
+  
               
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -512,22 +574,13 @@ Kesimpulan
   >Peran dan Tanggung Jawab Ethical Hacker
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/"
     
   >Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)
     </a>
-  
-    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
-              <a
-                href="#"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              ></a>
-            </li>
-          </ul>
-  
               
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -753,9 +806,9 @@ Kesimpulan
   >Metodologi Penetesting
     </a>
               
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
     href="/docs/hacking/hacking_fundamentals/owasp-top-10---2021/"
     
   >OWASP TOP 10 2021
@@ -769,9 +822,9 @@ Kesimpulan
   >Peran dan Tanggung Jawab Ethical Hacker
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/"
     
   >Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)
@@ -830,23 +883,47 @@ Kesimpulan
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#1-hardware">1. Hardware
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#apa-itu-owasp-top-10-vulnerabilities">Apa itu OWASP Top 10 Vulnerabilities
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#2-software">2. Software
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a01-broken-access-control">A01: Broken Access Control
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#3-work-environment">3. Work Environment
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a02-cryptographic-failures">A02: Cryptographic Failures
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#4-contoh-praktik">4. Contoh Praktik
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a03-injection">A03: Injection
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#kesimpulan">Kesimpulan
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a04-insecure-design">A04: Insecure Design
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a05-security-misconfiguration">A05: Security Misconfiguration
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a06-vulnerable-and-outdated-components">A06: Vulnerable and Outdated Components
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a07-identification-and-authentication-failures">A07: Identification and Authentication Failures
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a08-software-and-data-integrity-failures">A08: Software and Data Integrity Failures
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a09-security-logging-and-monitoring-failures">A09: Security Logging and Monitoring Failures
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#a10-server-side-request-forgery-ssrf">A10: Server-Side Request Forgery (SSRF)
         </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
@@ -873,99 +950,149 @@ Kesimpulan
         </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
           <a href="/docs/hacking/hacking_fundamentals/">Hacking Fundamental</a>
-        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)</div>
+        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">OWASP TOP 10 2021</div>
   </div>
 
         <div class="content">
-          <h1>Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)</h1>
-          <h3><strong>1. Hardware</strong><span class="hx-absolute -hx-mt-20" id="1-hardware"></span>
-    <a href="#1-hardware" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
-<li><strong>Komputer</strong>:
+          <h1>OWASP TOP 10 2021</h1>
+          <h2>Apa itu OWASP Top 10 Vulnerabilities<span class="hx-absolute -hx-mt-20" id="apa-itu-owasp-top-10-vulnerabilities"></span>
+    <a href="#apa-itu-owasp-top-10-vulnerabilities" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>OWASP Top 10 adalah daftar kerentanan keamanan aplikasi web yang paling umum dan berisiko tinggi. Pemahaman dan mitigasi risiko ini sangat penting untuk meningkatkan keamanan aplikasi.</p>
+<h3><strong>A01: Broken Access Control</strong><span class="hx-absolute -hx-mt-20" id="a01-broken-access-control"></span>
+    <a href="#a01-broken-access-control" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kerentanan yang memungkinkan penyerang melakukan tindakan tanpa otorisasi yang sah.</li>
+<li><strong>Contoh Kasus:</strong>
 <ul>
-<li><strong>Spesifikasi</strong>: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal.</li>
-<li><strong>Sistem Operasi</strong>: Kebanyakan ethical hacker menggunakan distribusi Linux seperti <strong>Kali Linux</strong>, <strong>Parrot OS</strong>, atau <strong>BlackArch Linux</strong>.</li>
+<li>Terjadi di Facebook, di mana hacker dapat menjadi admin dari semua halaman Facebook melalui eksploitasi akses yang salah.</li>
 </ul>
 </li>
-<li><strong>Jaringan</strong>:
+<li><strong>Dampak:</strong> Hacker bisa mengakses atau mengubah data yang seharusnya terbatas untuk pengguna tertentu.</li>
+<li><strong>Pencegahan:</strong>
 <ul>
-<li><strong>Koneksi Internet</strong>: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud.</li>
-</ul>
-</li>
-</ul>
-<h3><strong>2. Software</strong><span class="hx-absolute -hx-mt-20" id="2-software"></span>
-    <a href="#2-software" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
-<li><strong>Distribusi Linux Khusus Hacking</strong>:
-<ul>
-<li><strong>Kali Linux</strong>: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi.</li>
-<li><strong>Parrot OS</strong>: Fokus pada keamanan dan privasi.</li>
-<li><strong>BlackArch Linux</strong>: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool.</li>
-</ul>
-</li>
-<li><strong>Virtual Machine (VM)</strong>:
-<ul>
-<li><strong>VirtualBox, VMware</strong>: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama.</li>
-<li><strong>Manfaat</strong>:
-<ul>
-<li><strong>Pengujian eksploitasi</strong>: Menjalankan sistem operasi yang rentan untuk uji eksploitasi.</li>
-<li><strong>Isolasi lingkungan</strong>: Menghindari kontaminasi sistem utama.</li>
-<li><strong>Pembuatan snapshot</strong>: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah.</li>
+<li>Implementasikan kontrol akses berbasis peran (Role-Based Access Control - RBAC).</li>
+<li>Uji kontrol akses menggunakan alat penetration testing.</li>
 </ul>
 </li>
 </ul>
-</li>
-<li><strong>Tool Ethical Hacking</strong>:
+<h3><strong>A02: Cryptographic Failures</strong><span class="hx-absolute -hx-mt-20" id="a02-cryptographic-failures"></span>
+    <a href="#a02-cryptographic-failures" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kerentanan yang timbul akibat kegagalan dalam melindungi data sensitif melalui enkripsi.</li>
+<li><strong>Dampak:</strong> Data penting seperti password, nomor kartu kredit, atau informasi pribadi dapat terekspos.</li>
+<li><strong>Pencegahan:</strong>
 <ul>
-<li><strong>Nmap</strong>: Untuk pemindaian port dan deteksi layanan.</li>
-<li><strong>Metasploit</strong>: Kerangka kerja populer untuk mengeksploitasi kerentanan.</li>
-<li><strong>Burp Suite</strong>: Proxy web untuk hacking aplikasi web.</li>
-<li><strong>Wireshark</strong>: Menganalisis lalu lintas jaringan.</li>
-<li><strong>Aircrack-ng</strong>: Untuk cracking Wi-Fi.</li>
-<li><strong>John the Ripper</strong>: Untuk cracking password.</li>
-<li><strong>Hydra</strong>: Untuk serangan brute force.</li>
-<li><strong>SQLmap</strong>: Untuk injeksi SQL.</li>
+<li>Gunakan algoritma enkripsi yang aman (seperti AES, RSA).</li>
+<li>Hindari menggunakan protokol komunikasi tanpa enkripsi (seperti HTTP, gunakan HTTPS).</li>
 </ul>
 </li>
 </ul>
-<h3><strong>3. Work Environment</strong><span class="hx-absolute -hx-mt-20" id="3-work-environment"></span>
-    <a href="#3-work-environment" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
-<li><strong>Virtual Lab</strong>:
+<h3><strong>A03: Injection</strong><span class="hx-absolute -hx-mt-20" id="a03-injection"></span>
+    <a href="#a03-injection" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Serangan yang terjadi saat aplikasi tidak memvalidasi input dengan baik, memungkinkan penyerang menyisipkan instruksi berbahaya.</li>
+<li><strong>Jenis Injection:</strong>
+<ol>
+<li><strong>Command Injection:</strong> Hacker menyisipkan perintah sistem operasi melalui input aplikasi.</li>
+<li><strong>SQL Injection:</strong> Hacker menyisipkan query SQL untuk mengakses data sensitif.
 <ul>
-<li><strong>Platform</strong>: <strong>Hack The Box</strong>, <strong>TryHackMe</strong>, <strong>Vulnhub</strong> menyediakan lingkungan virtual untuk praktik ethical hacking.</li>
-<li><strong>Manfaat</strong>:
+<li><strong>Tool:</strong> SQLMap.</li>
+</ul>
+</li>
+<li><strong>XSS (Cross-Site Scripting):</strong> Hacker menyisipkan script berbahaya untuk mengendalikan browser user.</li>
+</ol>
+</li>
+<li><strong>Dampak:</strong> Data dapat diakses, dimodifikasi, atau dihancurkan.</li>
+<li><strong>Pencegahan:</strong>
 <ul>
-<li><strong>Pembelajaran langsung</strong>: Tantangan realistis untuk mengasah keterampilan.</li>
-<li><strong>Eksplorasi kerentanan</strong>: Berbagai mesin virtual dengan kerentanan berbeda.</li>
+<li>Gunakan prepared statements untuk query database.</li>
+<li>Sanitasi input dari user.</li>
 </ul>
 </li>
 </ul>
-</li>
-<li><strong>Physical Lab</strong>:
+<h3><strong>A04: Insecure Design</strong><span class="hx-absolute -hx-mt-20" id="a04-insecure-design"></span>
+    <a href="#a04-insecure-design" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kerentanan akibat desain aplikasi yang tidak memperhatikan keamanan.</li>
+<li><strong>Contoh:</strong> Fitur &ldquo;password recovery&rdquo; yang tidak aman.</li>
+<li><strong>Dampak:</strong> Hacker dapat mengeksploitasi kelemahan desain untuk mendapatkan akses tidak sah.</li>
+<li><strong>Pencegahan:</strong>
 <ul>
-<li><strong>Membangun lab sendiri</strong>: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks.</li>
-<li><strong>Manfaat</strong>:
+<li>Terapkan prinsip keamanan sejak awal pengembangan aplikasi (Secure by Design).</li>
+</ul>
+</li>
+</ul>
+<h3><strong>A05: Security Misconfiguration</strong><span class="hx-absolute -hx-mt-20" id="a05-security-misconfiguration"></span>
+    <a href="#a05-security-misconfiguration" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kesalahan dalam konfigurasi sistem atau aplikasi.</li>
+<li><strong>Contoh:</strong>
 <ul>
-<li><strong>Pengalaman lebih realistis</strong>: Lingkungan yang lebih mirip dunia nyata.</li>
-<li><strong>Eksperimen bebas</strong>: Melakukan eksperimen yang lebih kompleks.</li>
+<li>Penggunaan akun default tanpa perubahan kredensial.</li>
+<li>Direktori atau file yang tidak dilindungi.</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-<h3><strong>4. Contoh Praktik</strong><span class="hx-absolute -hx-mt-20" id="4-contoh-praktik"></span>
-    <a href="#4-contoh-praktik" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
-<li><strong>Skenario</strong>: Ingin menguji kerentanan aplikasi web.</li>
-<li><strong>Langkah</strong>:
+<li><strong>Dampak:</strong> Hacker dapat mengeksploitasi sistem dengan mengakses area yang tidak terlindungi.</li>
+<li><strong>Pencegahan:</strong>
 <ul>
-<li><strong>Buat VM</strong>: Buat VM dengan sistem operasi yang sama dengan aplikasi target.</li>
-<li><strong>Install aplikasi web</strong>: Pasang aplikasi pada VM.</li>
-<li><strong>Jalankan Burp Suite</strong>: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi.</li>
-<li><strong>Temukan kerentanan</strong>: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF.</li>
-<li><strong>Eksploitasi</strong>: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya.</li>
+<li>Audit konfigurasi sistem secara rutin.</li>
+<li>Nonaktifkan fitur yang tidak digunakan.</li>
 </ul>
 </li>
 </ul>
-<h3><strong>Kesimpulan</strong><span class="hx-absolute -hx-mt-20" id="kesimpulan"></span>
-    <a href="#kesimpulan" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Dengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab.</p>
+<h3><strong>A06: Vulnerable and Outdated Components</strong><span class="hx-absolute -hx-mt-20" id="a06-vulnerable-and-outdated-components"></span>
+    <a href="#a06-vulnerable-and-outdated-components" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Menggunakan software, library, atau framework yang sudah usang dan rentan.</li>
+<li><strong>Dampak:</strong> Hacker dapat mengeksploitasi kerentanan yang sudah diketahui di versi lama.</li>
+<li><strong>Pencegahan:</strong>
+<ul>
+<li>Selalu perbarui komponen aplikasi.</li>
+<li>Gunakan alat seperti Dependabot atau Snyk untuk memantau kerentanan.</li>
+</ul>
+</li>
+</ul>
+<h3><strong>A07: Identification and Authentication Failures</strong><span class="hx-absolute -hx-mt-20" id="a07-identification-and-authentication-failures"></span>
+    <a href="#a07-identification-and-authentication-failures" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kelemahan dalam sistem identifikasi, autentikasi, atau manajemen sesi.</li>
+<li><strong>Contoh:</strong> Sistem rentan terhadap serangan bruteforce.</li>
+<li><strong>Dampak:</strong> Hacker bisa mendapatkan akses ke akun pengguna.</li>
+<li><strong>Pencegahan:</strong>
+<ul>
+<li>Terapkan multi-factor authentication (MFA).</li>
+<li>Gunakan bcrypt untuk hashing password.</li>
+</ul>
+</li>
+</ul>
+<h3><strong>A08: Software and Data Integrity Failures</strong><span class="hx-absolute -hx-mt-20" id="a08-software-and-data-integrity-failures"></span>
+    <a href="#a08-software-and-data-integrity-failures" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kerentanan yang terjadi ketika aplikasi bergantung pada modul atau plugin yang tidak terpercaya.</li>
+<li><strong>Contoh:</strong> Menggunakan library pihak ketiga yang berisi malware.</li>
+<li><strong>Dampak:</strong> Data aplikasi atau pengguna dapat dirusak atau disusupi.</li>
+<li><strong>Pencegahan:</strong>
+<ul>
+<li>Verifikasi sumber library atau plugin.</li>
+<li>Gunakan signature-based verification untuk integritas software.</li>
+</ul>
+</li>
+</ul>
+<h3><strong>A09: Security Logging and Monitoring Failures</strong><span class="hx-absolute -hx-mt-20" id="a09-security-logging-and-monitoring-failures"></span>
+    <a href="#a09-security-logging-and-monitoring-failures" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Kegagalan dalam mencatat dan memonitor aktivitas keamanan.</li>
+<li><strong>Contoh:</strong> Tidak mencatat login attempt yang gagal.</li>
+<li><strong>Dampak:</strong> Serangan yang terjadi tidak terdeteksi, sehingga sulit untuk ditindaklanjuti.</li>
+<li><strong>Pencegahan:</strong>
+<ul>
+<li>Gunakan alat monitoring seperti Splunk atau ELK Stack.</li>
+<li>Konfigurasi logging untuk mencatat semua aktivitas yang relevan.</li>
+</ul>
+</li>
+</ul>
+<h3><strong>A10: Server-Side Request Forgery (SSRF)</strong><span class="hx-absolute -hx-mt-20" id="a10-server-side-request-forgery-ssrf"></span>
+    <a href="#a10-server-side-request-forgery-ssrf" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><strong>Definisi:</strong> Serangan di mana hacker mengeksploitasi fungsi server untuk mengakses informasi yang tidak boleh diakses.</li>
+<li><strong>Contoh:</strong> Hacker menggunakan SSRF untuk mengakses metadata cloud (contoh: AWS Metadata).</li>
+<li><strong>Dampak:</strong> Hacker dapat mencuri data sensitif atau mendapatkan kontrol penuh terhadap sistem.</li>
+<li><strong>Pencegahan:</strong>
+<ul>
+<li>Validasi input URL dengan whitelist.</li>
+<li>Nonaktifkan permintaan ke jaringan internal dari server.</li>
+</ul>
+</li>
+</ul>
 
         </div>
         <div class="hx-mt-16"></div>
@@ -974,10 +1101,10 @@ Kesimpulan
         title="Hacking Fundamental"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-pr-4 rtl:hx-pl-4"
       ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Hacking Fundamental</a><a
-        href="/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/"
-        title="Sejarah Internet Indonesia"
+        href="/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/"
+        title="Peran dan Tanggung Jawab Ethical Hacker"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-ml-auto ltr:hx-pl-4 ltr:hx-text-right rtl:hx-mr-auto rtl:hx-pr-4 rtl:hx-text-left"
-      >Sejarah Internet Indonesia<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      >Peran dan Tanggung Jawab Ethical Hacker<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
         
       </main>
     </article>
