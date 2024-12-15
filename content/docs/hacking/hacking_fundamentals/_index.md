@@ -22,4 +22,6 @@ Halaman ini berisi panduan dan materi tentang dasar-dasar hacking dan keamanan s
 {{< card link="./instalasi-lab-dvwa/" title="Instalasi Lab DVWA" icon="document-text">}}
 {{< card link="./memahami-csrf/" title="Memahami CSRF" icon="document-text">}}
 {{< card link="./web-penetration-testing/" title="Web Penetration Testing" icon="document-text">}}
+{{< card link="./owasp-top-10---2021/" title="OWASP TOP 10" icon="document-text">}}
+{{< card link="./persiapan-pembuatan-report/" title="Persiapan Pembuatan Report" icon="document-text">}}
 {{< /cards >}}

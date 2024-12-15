@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Hacking Fundamental</title>
-    <link>http://localhost:1313/docs/hacking/hacking_fundamentals/</link>
+    <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/</link>
     <description>Recent content in Hacking Fundamental on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/hacking/hacking_fundamentals/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://nancynesia.com/docs/hacking/hacking_fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Definisi Ethical Hacking</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/definisi_ethical_hacking/</guid>
       <description>
         
         
@@ -52,10 +52,10 @@
     
     <item>
       <title>Dunia Bawah di Internet</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/dunia_bawah_di_internet/</guid>
       <description>
         
         
@@ -98,10 +98,10 @@
     
     <item>
       <title>Etika dan Hukum Terkait Hacking</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/etika_dan_hukum_terkait_hacking/</guid>
       <description>
         
         
@@ -157,10 +157,10 @@
     
     <item>
       <title>Fase Penetration Testing</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/fase-penetration-testing/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/fase-penetration-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/fase-penetration-testing/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/fase-penetration-testing/</guid>
       <description>
         
         
@@ -244,10 +244,10 @@
     
     <item>
       <title>Instalasi Lab DVWA</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/instalasi-lab-dvwa/</guid>
       <description>
         
         
@@ -333,10 +333,10 @@
     
     <item>
       <title>Memahami Command Injection</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-command-injection/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-command-injection/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/</guid>
       <description>
         
         
@@ -354,7 +354,7 @@
     &lt;a href=&#34;#langkah-langkah&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Pastikan DVWA Security Level dalam keadaan &amp;ldquo;Low&amp;rdquo;:&lt;/strong&gt;
-&lt;img src=&#34;http://localhost:1313/images/SetSecLow.png&#34; alt=&#34;Set Security Low&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://nancynesia.com/images/SetSecLow.png&#34; alt=&#34;Set Security Low&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hal ini memastikan bahwa tidak ada mekanisme mitigasi yang diterapkan, sehingga kita bisa memahami cara kerentanan ini bekerja.&lt;/li&gt;
 &lt;/ul&gt;
@@ -388,7 +388,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Hasilnya akan menampilkan output seperti menjalankan perintah &lt;code&gt;ping&lt;/code&gt; di shell Bash.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/pingGoogle.png&#34; alt=&#34;Ping google.com&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/pingGoogle.png&#34; alt=&#34;Ping google.com&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -403,7 +403,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Untuk server UNIX, menggunakan perintah &lt;code&gt;ping -c 4&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/SourceCommandInjection.png&#34; alt=&#34;SourceCI&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/SourceCommandInjection.png&#34; alt=&#34;SourceCI&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -441,7 +441,7 @@
 
   
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/CekID.png&#34; alt=&#34;Cek ID&#34; loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CekID.png&#34; alt=&#34;Cek ID&#34; loading=&#34;lazy&#34; /&gt;
 Hasil: Menampilkan informasi user ID server, seperti &lt;code&gt;www-data&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
@@ -490,7 +490,7 @@ Hasil: Menampilkan informasi user ID server, seperti &lt;code&gt;www-data&lt;/co
 
   
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/CekDir.png&#34; alt=&#34;Cek Dir&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CekDir.png&#34; alt=&#34;Cek Dir&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hasil: Menampilkan daftar file di direktori kerja server.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
@@ -507,7 +507,7 @@ Hasil: Menampilkan informasi user ID server, seperti &lt;code&gt;www-data&lt;/co
 
   
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/CatFile.png&#34; alt=&#34;Cat index&#34; loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/CatFile.png&#34; alt=&#34;Cat index&#34; loading=&#34;lazy&#34; /&gt;
 Hasil: Membaca isi file &lt;code&gt;index.php&lt;/code&gt; jika memiliki izin akses.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -576,10 +576,10 @@ Hasil: Membaca isi file &lt;code&gt;index.php&lt;/code&gt; jika memiliki izin ak
     
     <item>
       <title>Memahami CSRF</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-csrf/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-csrf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-csrf/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-csrf/</guid>
       <description>
         
         
@@ -588,7 +588,7 @@ Hasil: Membaca isi file &lt;code&gt;index.php&lt;/code&gt; jika memiliki izin ak
 &lt;h2&gt;Dampak&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dampak&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dampak&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dampak dari CSRF sangat signifikan, terutama di Indonesia. Jika korban adalah pengguna biasa, kerugian yang dialami dapat berupa kerugian finansial atau kebocoran data pribadi. Namun, jika korban adalah seorang admin perusahaan, serangan ini dapat membahayakan seluruh perusahaan, termasuk data sensitif dan sistem operasional.&lt;/p&gt;
 &lt;h2&gt;Alur CSRF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;alur-csrf&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#alur-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/csrf.svg&#34; alt=&#34;csrf&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#alur-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/csrf.svg&#34; alt=&#34;csrf&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ilustrasi di atas menunjukkan bagaimana hacker mengirim link phishing yang memuat permintaan untuk mengubah informasi akun korban.&lt;/li&gt;
 &lt;li&gt;Cara kerja CSRF:
@@ -717,8 +717,8 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
 &lt;li&gt;Login sebagai smithy dan buka menu &amp;ldquo;CSRF&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Masukkan username dan password untuk smithy, lalu klik &amp;ldquo;Change&amp;rdquo; untuk melihat bahwa password dapat diubah menggunakan parameter GET.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/csrfchange.png&#34; alt=&#34;csrfchange&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;http://localhost:1313/images/csrfget.png&#34; alt=&#34;csrfget&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/csrfchange.png&#34; alt=&#34;csrfchange&#34; loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;https://nancynesia.com/images/csrfget.png&#34; alt=&#34;csrfget&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Membuat Exploit&lt;/strong&gt;:&lt;/p&gt;
@@ -773,9 +773,9 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
 &lt;p&gt;&lt;strong&gt;Serangan&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Buka file HTML di browser admin (korban) menggunakan IP lokal, misalnya: &lt;code&gt;http://192.168.8.120:8000/index.html&lt;/code&gt;.
-&lt;img src=&#34;http://localhost:1313/images/phising.png&#34; alt=&#34;phising&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://nancynesia.com/images/phising.png&#34; alt=&#34;phising&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Klik link di halaman tersebut. Password admin akan otomatis berubah menjadi &amp;ldquo;smithy&amp;rdquo;.
-&lt;img src=&#34;http://localhost:1313/images/success.png&#34; alt=&#34;success&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://nancynesia.com/images/success.png&#34; alt=&#34;success&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -798,10 +798,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>Memahami File Inclusion</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-file-inclusion/</guid>
       <description>
         
         
@@ -896,7 +896,7 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
 
   
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/RFI1.png&#34; alt=&#34;RFI 1&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/RFI1.png&#34; alt=&#34;RFI 1&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Untuk simulasi RFI, buat file PHP berisi kode berikut, simpan sebagai &lt;code&gt;rfi.php&lt;/code&gt;:&lt;/p&gt;
@@ -955,7 +955,7 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Server akan menjalankan perintah &lt;code&gt;ls&lt;/code&gt; dan menampilkan hasilnya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/RFI2.png&#34; alt=&#34;RFI 2&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/RFI2.png&#34; alt=&#34;RFI 2&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Catatan Tambahan&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;catatan-tambahan&#34;&gt;&lt;/span&gt;
@@ -971,10 +971,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>Metodologi Penetesting</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/metodologi-pentesting/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/metodologi-pentesting/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/metodologi-pentesting/</guid>
       <description>
         
         
@@ -1038,10 +1038,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>OWASP TOP 10 2021</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/owasp-top-10---2021/</guid>
       <description>
         
         
@@ -1189,10 +1189,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>Peran dan Tanggung Jawab Ethical Hacker</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/peran_dan_tanggung_jawab_ethical_hacker/</guid>
       <description>
         
         
@@ -1251,10 +1251,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/</guid>
       <description>
         
         
@@ -1351,11 +1351,147 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     </item>
     
     <item>
-      <title>Sejarah Internet Indonesia</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</link>
+      <title>Persiapan Pembuatan Report</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;&lt;strong&gt;Format Penulisan&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;format-penulisan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#format-penulisan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Halaman 1&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;halaman-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#halaman-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Visualisasi:&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/halaman1.png&#34; alt=&#34;halaman1&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elemen Utama:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Logo Perusahaan&lt;/strong&gt;: Sertakan logo perusahaan atau organisasi yang menjadi target penilaian.
+&lt;em&gt;Tips: Pastikan logo terlihat jelas dan sesuai dengan gaya visual laporan.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Judul&lt;/strong&gt;: Gunakan format spesifik yang menggambarkan kerentanan, seperti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Reflected XSS on Search Page&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Broken Access Control in Admin Dashboard&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tanggal Ditemukan&lt;/strong&gt;: Cantumkan tanggal temuan kerentanan, seperti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;on 28 July 2018&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Penemu Bug&lt;/strong&gt;: Masukkan nama atau alias penemu bug, contohnya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;by Overflow&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong&gt;Halaman 2&lt;/strong&gt; (Disajikan dalam bentuk tabel)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;halaman-2-disajikan-dalam-bentuk-tabel&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#halaman-2-disajikan-dalam-bentuk-tabel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Visualisasi:&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://nancynesia.com/images/halaman2.png&#34; alt=&#34;halaman2&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Struktur Tabel dan Keterangan&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;struktur-tabel-dan-keterangan&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#struktur-tabel-dan-keterangan&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Berisi deskripsi rinci kerentanan. Anda bisa merujuk pada informasi yang tersedia di &lt;a href=&#34;https://owasp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OWASP Top 10&lt;/a&gt;.
+&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Kerentanan ini memungkinkan input user tidak divalidasi dengan benar, sehingga penyerang dapat menyisipkan skrip berbahaya.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Affected Endpoint&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Endpoint yang terdampak. Cantumkan detail URL atau lokasi fungsi yang rentan.
+&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;/search?q=example&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;API: /api/user/login&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Penjelasan dampak kerentanan terhadap sistem atau data.
+&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Penyerang dapat mencuri cookie sesi pengguna.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Data pengguna terekspos dan dapat diakses oleh pihak tidak sah.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Steps to Reproduce&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Langkah-langkah yang harus diikuti untuk mereproduksi kerentanan.
+&lt;strong&gt;Format:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Langkah 1: Masukkan skrip berikut ke kolom pencarian.&lt;/li&gt;
+&lt;li&gt;Langkah 2: Klik tombol &amp;ldquo;Search&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Langkah 3: Periksa hasil yang menunjukkan adanya skrip yang dieksekusi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Proof of Concept (POC)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dokumentasi atau bukti (gambar atau video) yang menunjukkan keberhasilan eksploitasi.
+&lt;strong&gt;Tips:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gunakan tangkapan layar atau rekaman video untuk memperjelas POC.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remediation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Saran mitigasi atau langkah-langkah perbaikan.
+&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Gunakan prepared statements untuk query SQL.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Validasi input dengan whitelist.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sumber rujukan tambahan untuk informasi lebih lanjut.
+&lt;strong&gt;Contoh:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://owasp.org/www-project-top-ten/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OWASP Top 10: Injection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cheatsheetseries.owasp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitigation Techniques&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sejarah Internet Indonesia</title>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/</guid>
       <description>
         
         
@@ -1381,10 +1517,10 @@ email=wiener@normal-user.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-c
     
     <item>
       <title>Web Penentration Testing</title>
-      <link>http://localhost:1313/docs/hacking/hacking_fundamentals/web-penetration-testing/</link>
+      <link>https://nancynesia.com/docs/hacking/hacking_fundamentals/web-penetration-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/hacking/hacking_fundamentals/web-penetration-testing/</guid>
+      <guid>https://nancynesia.com/docs/hacking/hacking_fundamentals/web-penetration-testing/</guid>
       <description>
         
         

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="index, follow" />
   <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
@@ -13,7 +13,7 @@
 <title>Memahami Command Injection – Nancynesia</title>
   <meta name="description" content="Apa itu Command Injection?Command Injection adalah kerentanan keamanan yang terjadi ketika suatu aplikasi menerima input dari pengguna dan mengeksekusi perintah sistem operasi tanpa melakukan validasi atau sanitasi yang memadai. Kerentanan ini memungkinkan penyerang untuk menyisipkan dan menjalankan perintah yang tidak diotorisasi pada server.
 Command Injection berbeda dengan Insecure File Upload atau Unrestricted File Upload:
-Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalankan oleh server. Command Injection: Penyerang langsung menjalankan perintah sistem operasi melalui input yang disediakan aplikasi. Contoh Situasi:Misalnya, pada sistem berbasis Debian, penyerang dapat menjalankan perintah-perintah seperti ls, cat, atau id melalui kerentanan ini. Jika aplikasi tidak membatasi atau memvalidasi input, perintah-perintah ini dapat dijalankan oleh server." /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-command-injection/" itemprop="url" />
+Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalankan oleh server. Command Injection: Penyerang langsung menjalankan perintah sistem operasi melalui input yang disediakan aplikasi. Contoh Situasi:Misalnya, pada sistem berbasis Debian, penyerang dapat menjalankan perintah-perintah seperti ls, cat, atau id melalui kerentanan ini. Jika aplikasi tidak membatasi atau memvalidasi input, perintah-perintah ini dapat dijalankan oleh server." /><link rel="canonical" href="https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/" itemprop="url" />
 
 <meta property="og:title" content="Memahami Command Injection" />
 <meta property="og:description" content="Apa itu Command Injection?
@@ -26,7 +26,7 @@ Command Injection: Penyerang langsung menjalankan perintah sistem operasi melalu
 Contoh Situasi:
     Misalnya, pada sistem berbasis Debian, penyerang dapat menjalankan perintah-perintah seperti ls, cat, atau id melalui kerentanan ini. Jika aplikasi tidak membatasi atau memvalidasi input, perintah-perintah ini dapat dijalankan oleh server." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/memahami-command-injection/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://nancynesia.com/docs/hacking/hacking_fundamentals/memahami-command-injection/" /><meta property="article:section" content="docs" />
 
 
 
@@ -41,11 +41,12 @@ Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalank
 Command Injection berbeda dengan Insecure File Upload atau Unrestricted File Upload:
 Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalankan oleh server. Command Injection: Penyerang langsung menjalankan perintah sistem operasi melalui input yang disediakan aplikasi. Contoh Situasi:Misalnya, pada sistem berbasis Debian, penyerang dapat menjalankan perintah-perintah seperti ls, cat, atau id melalui kerentanan ini. Jika aplikasi tidak membatasi atau memvalidasi input, perintah-perintah ini dapat dijalankan oleh server.">
 
-    <link href="/css/compiled/main.css" rel="stylesheet" />
+    <link rel="preload" href="/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" as="style" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
+    <link href="/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" rel="stylesheet" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
 
 
 
-  <link href="/css/custom.css" rel="stylesheet" />
+  <link href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" rel="stylesheet" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU=" />
 
 
   <script>
@@ -477,6 +478,14 @@ Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalank
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/"
+    
+  >Persiapan Pembuatan Report
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/"
     
   >Sejarah Internet Indonesia
@@ -720,6 +729,14 @@ Insecure File Upload: Penyerang mengunggah file berbahaya yang kemudian dijalank
     href="/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/"
     
   >Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/"
+    
+  >Persiapan Pembuatan Report
     </a>
               
             </li><li class="hx-flex hx-flex-col "><a
@@ -1086,11 +1103,11 @@ Hasil: Membaca isi file <code>index.php</code> jika memiliki izin akses.</p>
   </div>
 </footer>
     
-    <script defer src="/js/main.js" integrity=""></script>
+    <script defer src="/js/main.min.50a0d894de45456461df15a40fda1d0185bbc2595f2abd5b149a74387527f0d9.js" integrity="sha256-UKDYlN5FRWRh3xWkD9odAYW7wllfKr1bFJp0OHUn8Nk="></script>
 
 
 <script defer src="/lib/flexsearch/flexsearch.bundle.min.0425860527cc9968f9f049421c7a56b39327d475e2e3a8f550416be3a9134327.js" integrity="sha256-BCWGBSfMmWj58ElCHHpWs5Mn1HXi46j1UEFr46kTQyc="></script>
-    <script defer src="/en.search.js" integrity=""></script>
+    <script defer src="/en.search.min.af48afc03adde8983ff621cfde8f8d4deff4f8d2ee47b3d5b2442835a8d92cf2.js" integrity="sha256-r0ivwDrd6Jg/9iHP3o&#43;NTe/0&#43;NLuR7PVskQoNajZLPI="></script>
 
 
   </body>

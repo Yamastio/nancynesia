@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="index, follow" />
   <link rel="icon shortcut" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux) – Nancynesia</title>
-  <meta name="description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab." /><link rel="canonical" href="http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" itemprop="url" />
+  <meta name="description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab." /><link rel="canonical" href="https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" itemprop="url" />
 
 <meta property="og:title" content="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)" />
 <meta property="og:description" content="1. Hardware
@@ -103,7 +103,7 @@ Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya unt
 Kesimpulan
     Dengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://nancynesia.com/docs/hacking/hacking_fundamentals/perangkat_tool_dan_lingkungan_kerja_vm-kali-linux/" /><meta property="article:section" content="docs" />
 
 
 
@@ -114,11 +114,12 @@ Kesimpulan
   <meta name="twitter:title" content="Perangkat Tool dan Lingkungan Kerja (VM, Kali Linux)">
   <meta name="twitter:description" content="1. HardwareKomputer: Spesifikasi: Prosesor quad-core atau lebih tinggi, minimal 8GB RAM, dan SSD untuk performa optimal. Sistem Operasi: Kebanyakan ethical hacker menggunakan distribusi Linux seperti Kali Linux, Parrot OS, atau BlackArch Linux. Jaringan: Koneksi Internet: Stabil untuk mengakses sumber daya online seperti database eksploitasi, forum diskusi, dan layanan cloud. 2. SoftwareDistribusi Linux Khusus Hacking: Kali Linux: Distribusi paling populer, dilengkapi ratusan tool untuk pengujian penetrasi. Parrot OS: Fokus pada keamanan dan privasi. BlackArch Linux: Distribusi yang sangat dapat disesuaikan dengan banyak pilihan tool. Virtual Machine (VM): VirtualBox, VMware: Digunakan untuk menciptakan lingkungan virtual yang terisolasi agar bisa menguji eksploitasi tanpa merusak sistem utama. Manfaat: Pengujian eksploitasi: Menjalankan sistem operasi yang rentan untuk uji eksploitasi. Isolasi lingkungan: Menghindari kontaminasi sistem utama. Pembuatan snapshot: Memungkinkan pengembalian sistem ke kondisi sebelumnya dengan mudah. Tool Ethical Hacking: Nmap: Untuk pemindaian port dan deteksi layanan. Metasploit: Kerangka kerja populer untuk mengeksploitasi kerentanan. Burp Suite: Proxy web untuk hacking aplikasi web. Wireshark: Menganalisis lalu lintas jaringan. Aircrack-ng: Untuk cracking Wi-Fi. John the Ripper: Untuk cracking password. Hydra: Untuk serangan brute force. SQLmap: Untuk injeksi SQL. 3. Work EnvironmentVirtual Lab: Platform: Hack The Box, TryHackMe, Vulnhub menyediakan lingkungan virtual untuk praktik ethical hacking. Manfaat: Pembelajaran langsung: Tantangan realistis untuk mengasah keterampilan. Eksplorasi kerentanan: Berbagai mesin virtual dengan kerentanan berbeda. Physical Lab: Membangun lab sendiri: Membuat lab fisik dengan beberapa komputer yang terhubung untuk mensimulasikan jaringan yang kompleks. Manfaat: Pengalaman lebih realistis: Lingkungan yang lebih mirip dunia nyata. Eksperimen bebas: Melakukan eksperimen yang lebih kompleks. 4. Contoh PraktikSkenario: Ingin menguji kerentanan aplikasi web. Langkah: Buat VM: Buat VM dengan sistem operasi yang sama dengan aplikasi target. Install aplikasi web: Pasang aplikasi pada VM. Jalankan Burp Suite: Konfigurasikan sebagai proxy untuk mencegat lalu lintas antara browser dan aplikasi. Temukan kerentanan: Gunakan Burp Suite untuk mendeteksi kerentanan seperti SQL injection, XSS, atau CSRF. Eksploitasi: Jika ditemukan kerentanan, gunakan Metasploit atau tool lainnya untuk mengeksploitasinya. KesimpulanDengan perangkat keras, perangkat lunak, dan lingkungan kerja yang tepat, Anda dapat memulai perjalanan sebagai seorang ethical hacker. Ingatlah bahwa ethical hacking bertujuan untuk pembelajaran dan perbaikan, bukan penghancuran. Gunakan pengetahuan dan tool Anda dengan bijak dan bertanggung jawab.">
 
-    <link href="/css/compiled/main.css" rel="stylesheet" />
+    <link rel="preload" href="/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" as="style" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
+    <link href="/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" rel="stylesheet" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
 
 
 
-  <link href="/css/custom.css" rel="stylesheet" />
+  <link href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" rel="stylesheet" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU=" />
 
 
   <script>
@@ -532,6 +533,14 @@ Kesimpulan
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/"
+    
+  >Persiapan Pembuatan Report
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/"
     
   >Sejarah Internet Indonesia
@@ -780,6 +789,14 @@ Kesimpulan
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/"
+    
+  >Persiapan Pembuatan Report
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/"
     
   >Sejarah Internet Indonesia
@@ -974,10 +991,10 @@ Kesimpulan
         title="Hacking Fundamental"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-pr-4 rtl:hx-pl-4"
       ><svg class="hx-inline hx-h-5 hx-shrink-0 ltr:hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Hacking Fundamental</a><a
-        href="/docs/hacking/hacking_fundamentals/sejarah_internet_indonesia/"
-        title="Sejarah Internet Indonesia"
+        href="/docs/hacking/hacking_fundamentals/persiapan-pembuatan-report/"
+        title="Persiapan Pembuatan Report"
         class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-ml-auto ltr:hx-pl-4 ltr:hx-text-right rtl:hx-mr-auto rtl:hx-pr-4 rtl:hx-text-left"
-      >Sejarah Internet Indonesia<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      >Persiapan Pembuatan Report<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
         
       </main>
     </article>
@@ -991,11 +1008,11 @@ Kesimpulan
   </div>
 </footer>
     
-    <script defer src="/js/main.js" integrity=""></script>
+    <script defer src="/js/main.min.50a0d894de45456461df15a40fda1d0185bbc2595f2abd5b149a74387527f0d9.js" integrity="sha256-UKDYlN5FRWRh3xWkD9odAYW7wllfKr1bFJp0OHUn8Nk="></script>
 
 
 <script defer src="/lib/flexsearch/flexsearch.bundle.min.0425860527cc9968f9f049421c7a56b39327d475e2e3a8f550416be3a9134327.js" integrity="sha256-BCWGBSfMmWj58ElCHHpWs5Mn1HXi46j1UEFr46kTQyc="></script>
-    <script defer src="/en.search.js" integrity=""></script>
+    <script defer src="/en.search.min.af48afc03adde8983ff621cfde8f8d4deff4f8d2ee47b3d5b2442835a8d92cf2.js" integrity="sha256-r0ivwDrd6Jg/9iHP3o&#43;NTe/0&#43;NLuR7PVskQoNajZLPI="></script>
 
 
   </body>
