@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nancynesia – Hacking_fundamentals</title>
-    <link>https://nancynesia.com/tags/hacking_fundamentals/</link>
+    <link>http://localhost:1313/tags/hacking_fundamentals/</link>
     <description>Recent content in Hacking_fundamentals on Nancynesia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://nancynesia.com/tags/hacking_fundamentals/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/tags/hacking_fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Instalasti Lab DVWA</title>
-      <link>https://nancynesia.com/blog/instalasi-lab-dvwa/</link>
+      <link>http://localhost:1313/blog/instalasi-lab-dvwa/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://nancynesia.com/blog/instalasi-lab-dvwa/</guid>
+      <guid>http://localhost:1313/blog/instalasi-lab-dvwa/</guid>
       <description>
         
         
@@ -105,10 +105,10 @@
     
     <item>
       <title>Mengapa Kita Perlu Melakukan Penetration Testing</title>
-      <link>https://nancynesia.com/blog/mengapa-kita-perlu-melakukan-penetration-testing/</link>
+      <link>http://localhost:1313/blog/mengapa-kita-perlu-melakukan-penetration-testing/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://nancynesia.com/blog/mengapa-kita-perlu-melakukan-penetration-testing/</guid>
+      <guid>http://localhost:1313/blog/mengapa-kita-perlu-melakukan-penetration-testing/</guid>
       <description>
         
         
@@ -127,10 +127,10 @@
     
     <item>
       <title>Top Hacking Books for 2024</title>
-      <link>https://nancynesia.com/blog/top-hacking-books-for-2024/</link>
+      <link>http://localhost:1313/blog/top-hacking-books-for-2024/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://nancynesia.com/blog/top-hacking-books-for-2024/</guid>
+      <guid>http://localhost:1313/blog/top-hacking-books-for-2024/</guid>
       <description>
         
         
@@ -248,10 +248,10 @@ Extreme Privacy: Michael Bazzel&lt;/p&gt;
     
     <item>
       <title>Hands-on Setup Lab dan Lingkungan Testing Aman</title>
-      <link>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</link>
+      <link>http://localhost:1313/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://nancynesia.com/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</guid>
+      <guid>http://localhost:1313/blog/hands-on_setup_lab_dan_lingkungan_testing_aman/</guid>
       <description>
         
         
